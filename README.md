@@ -25,4 +25,4 @@ We propose a redesign of security aspects of this overlay, in order to improve A
 
 ## References
 
-- To appear.
+- Oliveira, Í., Sales, T. P., Almeida, J. P. A., Baratella, R., Fumagalli, M., & Guizzardi, G. Ontological Analysis and Redesign of Security Modeling in ArchiMate. PoEM 2022: The Practice of Enterprise Modeling 2022, Proceedings. [(forthcoming)](https://www.researchgate.net/publication/363708069_Ontological_Analysis_and_Redesign_of_Security_Modeling_in_ArchiMate)
