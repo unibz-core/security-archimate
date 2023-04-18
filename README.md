@@ -8,7 +8,7 @@ We propose a redesign of security aspects of this overlay, in order to improve A
 
 ## Project Struture
 
-* [/proposal](/proposal) contains the files made using Archi.
+* [/archimate_files](/archimate_files) contains the files made using Archi.
 
 ## Built with
 
