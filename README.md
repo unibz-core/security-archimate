@@ -6,13 +6,13 @@ The ["Risk and Security Overlay”](https://pure.unamur.be/ws/portalfiles/portal
 
 We propose a redesign of security aspects of this overlay, in order to improve ArchiMate security modeling capabilities.
 
-## Project Struture
+## Project Structure
 
 * [/archimate_files](/archimate_files) contains the files made using Archi.
 
 ## Built with
 
-* [Archi](https://www.archimatetool.com/) - The Archi® modelling toolkit is targeted toward all levels of Enterprise Architects and Modellers.
+* [Archi](https://www.archimatetool.com/) - The Archi® modeling toolkit is targeted toward all levels of Enterprise Architects and Modellers.
 
 ## Authors
 
