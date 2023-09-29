@@ -3,22 +3,31 @@ title: Test
 layout: home
 ---
 
-hahahaThis is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+## A Proposal of Redesign Security Modeling in ArchiMate
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+[ArchiMate](https://en.wikipedia.org/wiki/ArchiMate) is an open and independent enterprise architecture modeling language to support the description, analysis and visualization of architecture within and across business domains. ArchiMate is a technical standard from The Open Group and is based on concepts from the now superseded IEEE 1471 standard.
 
-More specifically, the created site:
+The ["Risk and Security Overlay”](https://pure.unamur.be/ws/portalfiles/portal/12366722/Modeling_Enterprise_Risk_Management_and_Secutity_with_the_ArchiMate_Language.pdf) of the ArchiMate language is an attempt to introduce risk and security modeling in ArchiMate language.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+We propose a redesign of security aspects of this overlay, in order to improve ArchiMate security modeling capabilities.
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+## Project Structure
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+* [/archimate_files](/archimate_files) contains the files made using Archi.
 
-To get started with creating a site, simply:
+## Built with
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+* [Archi](https://www.archimatetool.com/) - The Archi® modeling toolkit is targeted toward all levels of Enterprise Architects and Modellers.
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+## Authors
+
+* **[Ítalo Oliveira](https://sites.google.com/view/italojsoliveira)** - Free University of Bozen-Bolzano, Bolzano, Italy
+* **[Tiago Prince Sales](https://www.inf.unibz.it/~tpsales/)** - Free University of Bozen-Bolzano, Bolzano, Italy
+* **[João Paulo A. Almeida](https://nemo.inf.ufes.br/equipe/jpalmeida/)** - Federal University of Espírito Santo, Brazil.
+* **[Riccardo Baratella](https://scholar.google.it/citations?user=iVvfMXcAAAAJ)** - Free University of Bozen-Bolzano, Bolzano, Italy
+* **[Mattia Fumagalli](http://www.mattspace.net/)** - Free University of Bozen-Bolzano, Bolzano, Italy
+* **[Giancarlo Guizzardi](https://www.unibz.it/en/faculties/computer-science/academic-staff/person/37428-giancarlo-guizzardi)** - Free University of Bozen-Bolzano, Bolzano, Italy
+
+## References
+
+- Oliveira, Í., Sales, T.P., Almeida, J.P.A., Baratella, R., Fumagalli, M., Guizzardi, G. (2022). Ontological Analysis and Redesign of Security Modeling in ArchiMate. In: Barn, B.S., Sandkuhl, K. (eds) The Practice of Enterprise Modeling. PoEM 2022. Lecture Notes in Business Information Processing, vol 456. Springer, Cham. https://doi.org/10.1007/978-3-031-21488-2_6
