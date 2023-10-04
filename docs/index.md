@@ -1,6 +1,6 @@
 ---
-title: User Guide
-layout: about
+title: Home
+layout: home
 ---
 
 ## An Ontology-Driven Proposal of Redesign Security Modeling in ArchiMate
