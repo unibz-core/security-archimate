@@ -3,31 +3,49 @@ title: Vocabulary
 layout: home
 ---
 
-## A Proposal of Redesign Security Modeling in ArchiMate
+## Vocabulary
 
-[ArchiMate](https://en.wikipedia.org/wiki/ArchiMate) is an open and independent enterprise architecture modeling language to support the description, analysis and visualization of architecture within and across business domains. ArchiMate is a technical standard from The Open Group and is based on concepts from the now superseded IEEE 1471 standard.
 
-The ["Risk and Security Overlay”](https://pure.unamur.be/ws/portalfiles/portal/12366722/Modeling_Enterprise_Risk_Management_and_Secutity_with_the_ArchiMate_Language.pdf) of the ArchiMate language is an attempt to introduce risk and security modeling in ArchiMate language.
+Vulnerability Capability stereotyped with «Vulnerability»
 
-We propose a redesign of security aspects of this overlay, in order to improve ArchiMate security modeling capabilities.
+Threat Object Structure Element stereotyped with «ThreatAgent»
 
-## Project Structure
+Threat Event Event stereotyped with «ThreatEvent»
 
-* [/archimate_files](/archimate_files) contains the files made using Archi.
+Hazard Assessment Assessment stereotyped with «HazardAssessment»
 
-## Built with
+Loss Event Event stereotyped with «LossEvent»
 
-* [Archi](https://www.archimatetool.com/) - The Archi® modeling toolkit is targeted toward all levels of Enterprise Architects and Modellers.
+Intention Goal
 
-## Authors
+Risk Subject Stakeholder associated with a Goal that
+is negatively impacted by a «LossEvent»
 
-* **[Ítalo Oliveira](https://sites.google.com/view/italojsoliveira)** - Free University of Bozen-Bolzano, Bolzano, Italy
-* **[Tiago Prince Sales](https://www.inf.unibz.it/~tpsales/)** - Free University of Bozen-Bolzano, Bolzano, Italy
-* **[João Paulo A. Almeida](https://nemo.inf.ufes.br/equipe/jpalmeida/)** - Federal University of Espírito Santo, Brazil.
-* **[Riccardo Baratella](https://scholar.google.it/citations?user=iVvfMXcAAAAJ)** - Free University of Bozen-Bolzano, Bolzano, Italy
-* **[Mattia Fumagalli](http://www.mattspace.net/)** - Free University of Bozen-Bolzano, Bolzano, Italy
-* **[Giancarlo Guizzardi](https://www.unibz.it/en/faculties/computer-science/academic-staff/person/37428-giancarlo-guizzardi)** - Free University of Bozen-Bolzano, Bolzano, Italy
+Object at Risk Structure Element stereotyped
+with «AssetAtRisk»
 
-## References
+Threat Enabler Structure Element associated with a «ThreatEvent» or a «LossEvent»
 
-- Oliveira, Í., Sales, T.P., Almeida, J.P.A., Baratella, R., Fumagalli, M., Guizzardi, G. (2022). Ontological Analysis and Redesign of Security Modeling in ArchiMate. In: Barn, B.S., Sandkuhl, K. (eds) The Practice of Enterprise Modeling. PoEM 2022. Lecture Notes in Business Information Processing, vol 456. Springer, Cham. https://doi.org/10.1007/978-3-031-21488-2_6
+Risk Experience Grouping stereotyped with «RiskExperience»
+
+Risk Driver stereotyped with «Risk»
+
+Risk Assessment Assessment associated with a «Risk»
+
+Risk Assessor Stakeholder associated with a Risk Assessment
+
+Protected Subject A specialization of Risk Subject associated with a «ControlObjective»
+
+Security Designer Business Role stereotyped with «SecurityDesigner» (normally, it is asso-
+ciated with «ControlMeasure» and assigned to the implementation of a
+Security Mechanism)
+
+Security Mechanism Structure Element (Business Agent, Resource) stereotyped with «Securi-
+tyMechanism»
+
+Control Capability Capability associated with Control (Protection) Event
+
+Protection Trigger Assessment stereopyed with «ControlAssessment»
+
+Control Event An event that realizes «ControlObjective», and negatively influences the
+«Likelihood» associated with «ThreatEvent» or «Loss Event»
