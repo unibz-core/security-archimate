@@ -1,5 +1,5 @@
 ---
-title: Vocabulary
+title: Publications
 layout: home
 ---
 
