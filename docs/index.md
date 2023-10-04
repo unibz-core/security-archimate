@@ -3,7 +3,7 @@ title: Home
 layout: home
 ---
 
-# An Ontology-Driven Proposal of Redesign Security Modeling in ArchiMate
+## An Ontology-Driven Proposal of Redesign Security Modeling in ArchiMate
 
 [ArchiMate](https://en.wikipedia.org/wiki/ArchiMate) is an open and independent enterprise architecture modeling language to support the description, analysis, and visualization of architecture within and across business domains. ArchiMate is a technical standard from The Open Group. It is based on concepts from the now-superseded IEEE 1471 standard.
 
@@ -26,6 +26,8 @@ This website supplements our publications in this matter and serves as official 
 [^2]: Semantics, Cybersecurity & Services (SCS), University of Twente, Enschede, The Netherlands.
 [^3]: Federal University of Espírito Santo (UFES), Vitória, Brazil.
 [^4]: Dipartimento di Antichità, Filosofia, Storia (DAFIST), University of Genoa, Genoa, Italy.
+
+---
 
 ## Publications
 
