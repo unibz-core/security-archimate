@@ -54,7 +54,7 @@ Assessment stereotyped with «HazardAssessment»
 <!-- TOC --><a name="intention"></a>
 ### Intention
 
-Goal
+«QualityGoal» Goal, «FunctionalGoal» Goal, Goal
 
 
 <!-- TOC --><a name="loss-event"></a>
@@ -231,3 +231,54 @@ Event stereotyped with «ThreatEvent»
 
 Capability stereotyped with «Vulnerability»
 
+
+
+### Value Subject
+
+Stakeholder
+
+### Value Object Structure
+
+Element connected to a «ValueExperience»
+
+### Value Enabler
+
+Structure Element connected to a Value Event
+
+### Value Experience
+
+«ValueExperience» Grouping
+
+### Value Event
+
+Business Process, Business Interaction, Business Event
+
+### Disposition
+
+Capability
+
+### Quality
+
+«Quality» Driver
+
+
+### Value
+
+Value
+
+### Value Assessor
+
+Stakeholder connected to a «Valuation»
+
+
+### Object Value Asc.
+
+«Valuation» Assessment connected to a Value Object
+
+### Experience Value Asc.
+
+«Valuation» Assessment connected to a «ValueExperience»
+
+### Likelihood
+
+«Likelihood» Assessment connected to a triggering association between Value Events or to a «ValueExperience»
