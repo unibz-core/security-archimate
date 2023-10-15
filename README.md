@@ -1,5 +1,7 @@
 ## An Ontology-Driven Proposal of Redesign Security Modeling in ArchiMate
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10005209.svg)](https://doi.org/10.5281/zenodo.10005209)
+
 **Official website:** [https://unibz-core.github.io/security-archimate/](https://unibz-core.github.io/security-archimate/)
 
 [ArchiMate](https://en.wikipedia.org/wiki/ArchiMate) is an open and independent enterprise architecture modeling language to support the description, analysis, and visualization of architecture within and across business domains. ArchiMate is a technical standard from The Open Group. It is based on concepts from the now-superseded IEEE 1471 standard.
