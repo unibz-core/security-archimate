@@ -3,7 +3,7 @@ title: Home
 layout: home
 ---
 
-## An Ontology-Driven Approach to Value, Risk, and Security Modeling in ArchiMate
+## An Ontology-Driven Approach to Risk and Security Modeling in ArchiMate
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10005209.svg)](https://doi.org/10.5281/zenodo.10005209)
 
@@ -11,7 +11,7 @@ layout: home
 
 The ["Risk and Security Overlay”](https://pure.unamur.be/ws/portalfiles/portal/12366722/Modeling_Enterprise_Risk_Management_and_Secutity_with_the_ArchiMate_Language.pdf) of the ArchiMate language is an attempt to introduce risk and security modeling in ArchiMate language.
 
-Through an ontological approach, we propose redesigning the risk and security aspects of this overlay to improve ArchiMate's risk management modeling capabilities. Moreover, we propose a pattern language to introduce notions related to value into ArchiMate.
+Through an ontological approach, we propose redesigning the risk and security aspects of this overlay to improve ArchiMate's risk management modeling capabilities.
 
 This website supplements our publications in this matter and serves as official documentation.
 
