@@ -19,6 +19,12 @@ Through an ontological approach, we propose redesigning the security aspects of 
 
 * [Archi](https://www.archimatetool.com/) - The Archi® modeling toolkit is targeted toward all levels of Enterprise Architects and Modellers.
 
+## Citing this work
+
+To cite this proposal, use:
+
+Oliveira, Í., Sales, T.P., Almeida, J.P.A., Baratella, R., Fumagalli, M., Guizzardi, G. (2024). *Ontology-based Security Modeling in ArchiMate*. Software and Systems Modeling. Forthcoming.
+
 ## Authors
 
 * **[Ítalo Oliveira](https://sites.google.com/view/italojsoliveira)**[^1][^2]
@@ -36,6 +42,7 @@ Through an ontological approach, we propose redesigning the security aspects of 
 ---
 
 ## Publications
+- Oliveira, Í., Sales, T.P., Almeida, J.P.A., Baratella, R., Fumagalli, M., Guizzardi, G. (2024). *Ontology-based Security Modeling in ArchiMate*. Software and Systems Modeling. Forthcoming.
 
 - Oliveira, Í., Sales, T.P., Almeida, J.P.A., Baratella, R., Fumagalli, M., Guizzardi, G. (2022). Ontological Analysis and Redesign of Security Modeling in ArchiMate. In: Barn, B.S., Sandkuhl, K. (eds) The Practice of Enterprise Modeling. PoEM 2022. Lecture Notes in Business Information Processing, vol 456. Springer, Cham. https://doi.org/10.1007/978-3-031-21488-2_6
 
