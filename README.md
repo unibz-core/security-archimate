@@ -13,6 +13,7 @@ Through an ontological approach, we propose redesigning the security aspects of 
 ## Project Structure
 
 * [/archimate_files](/archimate_files) contains the files made using Archi.
+* [/breach_reports](/breach_reports) contains LastPass' reports, which is the basis for our study.
 
 ## Built with
 
