@@ -12,13 +12,11 @@ The vocabulary of our proposal to introduce notions related to **Value**, **Risk
 - [Control Capability](#control-capability)
 - [Control Event](#control-event)
 - [Disposition](#disposition)
-- [Experience Value Ascription](#experience-value-ascription)
 - [Hazard Assessment](#hazard-assessment)
 - [Intention](#intention)
 - [Likelihood](#likelihood)
 - [Loss Event](#loss-event)
 - [Object at Risk](#object-at-risk)
-- [Object Value Ascription](#object-value-ascription)
 - [Protected Subject](#protected-subject)
 - [Protection Trigger](#protection-trigger)
 - [Quality](#quality)
@@ -32,13 +30,6 @@ The vocabulary of our proposal to introduce notions related to **Value**, **Risk
 - [Threat Enabler](#threat-enabler)
 - [Threat Event](#threat-event)
 - [Threat Object](#threat-object)
-- [Value](#value)
-- [Value Assessor](#value-assessor)
-- [Value Enabler](#value-enabler)
-- [Value Object Structure](#value-object-structure)
-- [Value Subject](#value-subject)
-- [Value Experience](#value-experience)
-- [Value Event](#value-event)
 - [Vulnerability](#vulnerability)
 
 <!-- TOC end -->
@@ -59,13 +50,6 @@ An event that realizes «ControlObjective», and negatively influences the «Lik
 ### Disposition
 
 Capability
-
-<!-- TOC --><a name="experience-value-ascription"></a>
-### Experience Value Ascription
-
-«Valuation» Assessment connected to a «ValueExperience»
-
-
 
 <!-- TOC --><a name="hazard-assessment"></a>
 ### Hazard Assessment
@@ -95,11 +79,6 @@ Event stereotyped with «LossEvent»
 ### Object at Risk
 
 Structure Element stereotyped with «AssetAtRisk»
-
-<!-- TOC --><a name="object-value-ascription"></a>
-### Object Value Ascription
-
-«Valuation» Assessment connected to a Value Object
 
 <!-- TOC --><a name="protected-subject"></a>
 ### Protected Subject
@@ -176,43 +155,6 @@ Event stereotyped with «ThreatEvent»
 ### Threat Object
 
  Structure Element stereotyped with «ThreatAgent»
-
-
-
-<!-- TOC --><a name="value"></a>
-### Value
-
-Value
-
-<!-- TOC --><a name="value-assessor"></a>
-### Value Assessor
-
-Stakeholder connected to a «Valuation»
-
-<!-- TOC --><a name="value-enabler"></a>
-### Value Enabler
-
-Structure Element connected to a Value Event
-
-<!-- TOC --><a name="value-object-structure"></a>
-### Value Object Structure
-
-Element connected to a «ValueExperience»
-
-<!-- TOC --><a name="value-subject"></a>
-### Value Subject
-
-Stakeholder
-
-<!-- TOC --><a name="value-experience"></a>
-### Value Experience
-
-«ValueExperience» Grouping
-
-<!-- TOC --><a name="value-event"></a>
-### Value Event
-
-Business Process, Business Interaction, Business Event
 
 <!-- TOC --><a name="vulnerability"></a>
 ### Vulnerability
