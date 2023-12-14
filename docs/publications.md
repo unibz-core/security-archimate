@@ -5,6 +5,8 @@ layout: home
 
 ## ArchiMate Redesign Publications
 
+- Oliveira, Í., Sales, T.P., Almeida, J.P.A., Baratella, R., Fumagalli, M., Guizzardi, G. (2024). *Ontology-based Security Modeling in ArchiMate*. Software and Systems Modeling. Forthcoming.
+
 - Oliveira, Í., Sales, T.P., Almeida, J.P.A., Baratella, R., Fumagalli, M., Guizzardi, G. (2022). *Ontological Analysis and Redesign of Security Modeling in ArchiMate*. In: Barn, B.S., Sandkuhl, K. (eds) The Practice of Enterprise Modeling. PoEM 2022. Lecture Notes in Business Information Processing, vol 456. Springer, Cham. [https://doi.org/10.1007/978-3-031-21488-2_6](https://doi.org/10.1007/978-3-031-21488-2_6)
 
 - Sales, T. P., Almeida, J. P. A., Santini, S., Baião, F., & Guizzardi, G. (2018). *Ontological analysis and redesign of risk modeling in ArchiMate*. In 2018 IEEE 22nd International Enterprise Distributed Object Computing Conference (EDOC) (pp. 154-163). IEEE., [https://doi.org/10.1109/EDOC.2018.00028](https://doi.org/10.1109/EDOC.2018.00028).
