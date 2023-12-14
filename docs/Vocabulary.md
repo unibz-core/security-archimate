@@ -1,11 +1,11 @@
 ---
-title: Vocabulary
+title: Terminology
 layout: home
 ---
 
-## Vocabulary
+## Terminology
 
-The vocabulary of our proposal to introduce notions related to **Risk** and **Security** into ArchiMate language.
+The terminology of our proposal to introduce notions related to **Risk** and **Security** into ArchiMate language.
 
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
