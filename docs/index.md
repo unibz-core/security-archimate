@@ -5,8 +5,6 @@ layout: home
 
 ## An Ontological Approach to Risk and Security Modeling in ArchiMate
 
----
-
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10005209.svg)](https://doi.org/10.5281/zenodo.10005209) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 [ArchiMate](https://en.wikipedia.org/wiki/ArchiMate) is an open and independent enterprise architecture modeling language to support the description, analysis, and visualization of architecture within and across business domains. ArchiMate is a technical standard from The Open Group. It is based on concepts from the now-superseded IEEE 1471 standard.

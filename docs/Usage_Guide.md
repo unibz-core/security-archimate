@@ -1,5 +1,5 @@
 ---
-title: User Guide
+title: Usage Guide
 layout: home
 ---
 
