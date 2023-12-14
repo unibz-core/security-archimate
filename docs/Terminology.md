@@ -39,7 +39,7 @@ The terminology of our proposal to introduce notions related to **Risk** and **S
 <!-- TOC --><a name="control-capability"></a>
 ### 1. Control Capability
 
-    > Definition...
+     Definition...
 
 Capability associated with Control (Protection) Event
 
@@ -52,7 +52,7 @@ An event that realizes «ControlObjective», and negatively influences the «Lik
 <!-- TOC --><a name="control-measure"></a>
 ### 3. Control Measure
 
-    > Definition...
+    Definition...
 
 <!-- TOC --><a name="control-objective"></a>
 ### 4. Control Objective
