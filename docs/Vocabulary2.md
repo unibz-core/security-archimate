@@ -4,33 +4,6 @@ layout: home
 ---
 
 
-<head>
-    <title>gUFO: A Lightweight Implementation of the Unified Foundational Ontology (UFO)</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-
-<h1>gUFO: A Lightweight Implementation of the Unified Foundational Ontology (UFO)</h1>
-<section id="metadata">
-    <h2 style="display:none;">Metadata</h2>
-    <dl>
-        <dt>IRI</dt>
-        <dd><code>http://purl.org/nemo/gufo#</code></dd>
-        <dt>Creator(s)</dt>
-        <dd>
-            Almeida, João Paulo A.<br/>
-            Falbo, Ricardo A.<br/>
-            Guizzardi, Giancarlo<br/>
-            Sales, Tiago P.<br/>
-        </dd>
-        <dt>Version Information</dt>
-        <dd>1.0.0</dd>
-        <dt>License</dt>
-        <dd><a href="https://creativecommons.org/licenses/by/4.0/legalcode">https://creativecommons.org/licenses/by/4.0/legalcode</a></dd>
-        <dt>Ontology Source</dt>
-        <dd><a href="https://purl.org/nemo/gufo#">RDF (Turtle)</a></dd>
-    </dl>
 
 ## Usage Guide <a name="usageguide"></a>
 
