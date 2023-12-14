@@ -69,12 +69,18 @@ In ArchiMate, a *Control Measure* is represented by a *Requirement* with the ste
 
     > Definition...
 
+TTTT.
+
+**Examples:** XXXX.
+
 <!-- TOC --><a name="disposition"></a>
 ### 5. Disposition
 
      Definition...
 
 Capability
+
+**Examples:** XXXX.
 
 <!-- TOC --><a name="hazard-assessment"></a>
 ### 6. Hazard Assessment
@@ -84,12 +90,15 @@ Capability
 Assessment stereotyped with «HazardAssessment»
 
 
+**Examples:** XXXX.
+
 <!-- TOC --><a name="intention"></a>
 ### 7. Intention
 
      Definition...
 
 «QualityGoal» Goal, «FunctionalGoal» Goal, Goal
+
 
 <!-- TOC --><a name="likelihood"></a>
 ### 8. Likelihood
@@ -98,6 +107,7 @@ Assessment stereotyped with «HazardAssessment»
 
 «Likelihood» Assessment connected to a triggering association between Value Events or to a «ValueExperience»
 
+**Examples:** XXXX.
 
 <!-- TOC --><a name="loss-event"></a>
 ### 9. Loss Event
@@ -107,6 +117,8 @@ Assessment stereotyped with «HazardAssessment»
 Event stereotyped with «LossEvent»
 
 
+**Examples:** XXXX.
+
 
 <!-- TOC --><a name="object-at-risk"></a>
 ### 10. Object at Risk
@@ -114,6 +126,9 @@ Event stereotyped with «LossEvent»
      Definition...
 
 Structure Element stereotyped with «AssetAtRisk»
+
+
+**Examples:** XXXX.
 
 <!-- TOC --><a name="protected-subject"></a>
 ### 11. Protected Subject
@@ -123,6 +138,8 @@ Structure Element stereotyped with «AssetAtRisk»
 A specialization of Risk Subject associated with a «ControlObjective»
 
 
+**Examples:** XXXX.
+
 <!-- TOC --><a name="protection-trigger"></a>
 ### 12. Protection Trigger
 
@@ -130,7 +147,7 @@ A specialization of Risk Subject associated with a «ControlObjective»
 
 Assessment stereopyed with «ControlAssessment»
 
-
+**Examples:** XXXX.
 
 <!-- TOC --><a name="quality"></a>
 ### 13. Quality
@@ -139,12 +156,17 @@ Assessment stereopyed with «ControlAssessment»
 
 «Quality» Driver
 
+**Examples:** XXXX.
+
 <!-- TOC --><a name="risk-experience"></a>
 ### 14. Risk Experience
 
      Definition...
 
 Grouping stereotyped with «RiskExperience»
+
+
+**Examples:** XXXX.
 
 <!-- TOC --><a name="risk-driver"></a>
 ### 15. Risk Driver
@@ -154,6 +176,8 @@ Grouping stereotyped with «RiskExperience»
 stereotyped with «Risk»
 
 
+**Examples:** XXXX.
+
 <!-- TOC --><a name="risk-subject"></a>
 ### 16. Risk Subject
 
@@ -162,12 +186,17 @@ stereotyped with «Risk»
 Stakeholder associated with a Goal that is negatively impacted by a «LossEvent»
 
 
+
+**Examples:** XXXX.
+
 <!-- TOC --><a name="risk-assessment"></a>
 ### 17. Risk Assessment
 
      Definition...
 
 Assessment associated with a «Risk»
+
+**Examples:** XXXX.
 
 
 <!-- TOC --><a name="risk-assessor"></a>
@@ -178,6 +207,8 @@ Assessment associated with a «Risk»
 Stakeholder associated with a Risk Assessment
 
 
+**Examples:** XXXX.
+
 <!-- TOC --><a name="security-designer"></a>
 ### 19. Security Designer
 
@@ -185,6 +216,8 @@ Stakeholder associated with a Risk Assessment
 
 Business Role stereotyped with «SecurityDesigner» (normally, it is associated with «ControlMeasure» and assigned to the implementation of a Security Mechanism)
 
+
+**Examples:** XXXX.
 
 <!-- TOC --><a name="security-mechanism"></a>
 ### 20. Security Mechanism
@@ -194,6 +227,8 @@ Business Role stereotyped with «SecurityDesigner» (normally, it is associated 
 Structure Element (Business Agent, Resource) stereotyped with «SecurityMechanism»
 
 
+**Examples:** XXXX.
+
 <!-- TOC --><a name="threat-enabler"></a>
 ### 21. Threat Enabler
 
@@ -201,7 +236,7 @@ Structure Element (Business Agent, Resource) stereotyped with «SecurityMechanis
 
 Structure Element associated with a «ThreatEvent» or a «LossEvent»
 
-
+**Examples:** XXXX.
 
 <!-- TOC --><a name="threat-event"></a>
 ### 22. Threat Event
@@ -211,12 +246,17 @@ Structure Element associated with a «ThreatEvent» or a «LossEvent»
 Event stereotyped with «ThreatEvent»
 
 
+**Examples:** XXXX.
+
 <!-- TOC --><a name="threat-object"></a>
 ### 23. Threat Object
 
      Definition...
 
  Structure Element stereotyped with «ThreatAgent»
+
+
+**Examples:** XXXX.
 
 <!-- TOC --><a name="vulnerability"></a>
 ### 24. Vulnerability
@@ -225,4 +265,6 @@ Event stereotyped with «ThreatEvent»
 
 Capability stereotyped with «Vulnerability»
 
+
+**Examples:** XXXX.
         
