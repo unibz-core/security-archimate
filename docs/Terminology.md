@@ -47,6 +47,8 @@ Capability associated with Control (Protection) Event
 <!-- TOC --><a name="control-event"></a>
 ### 2. Control Event
 
+     Definition...
+
 An event that realizes «ControlObjective», and negatively influences the «Likelihood» associated with «ThreatEvent» or «Loss Event»
 
 <!-- TOC --><a name="control-measure"></a>
@@ -62,10 +64,14 @@ An event that realizes «ControlObjective», and negatively influences the «Lik
 <!-- TOC --><a name="disposition"></a>
 ### 5. Disposition
 
+     Definition...
+
 Capability
 
 <!-- TOC --><a name="hazard-assessment"></a>
 ### 6. Hazard Assessment
+
+     Definition...
 
 Assessment stereotyped with «HazardAssessment»
 
@@ -73,16 +79,22 @@ Assessment stereotyped with «HazardAssessment»
 <!-- TOC --><a name="intention"></a>
 ### 7. Intention
 
+     Definition...
+
 «QualityGoal» Goal, «FunctionalGoal» Goal, Goal
 
 <!-- TOC --><a name="likelihood"></a>
 ### 8. Likelihood
+
+     Definition...
 
 «Likelihood» Assessment connected to a triggering association between Value Events or to a «ValueExperience»
 
 
 <!-- TOC --><a name="loss-event"></a>
 ### 9. Loss Event
+
+     Definition...
 
 Event stereotyped with «LossEvent»
 
@@ -91,10 +103,14 @@ Event stereotyped with «LossEvent»
 <!-- TOC --><a name="object-at-risk"></a>
 ### 10. Object at Risk
 
+     Definition...
+
 Structure Element stereotyped with «AssetAtRisk»
 
 <!-- TOC --><a name="protected-subject"></a>
 ### 11. Protected Subject
+
+     Definition...
 
 A specialization of Risk Subject associated with a «ControlObjective»
 
@@ -102,21 +118,30 @@ A specialization of Risk Subject associated with a «ControlObjective»
 <!-- TOC --><a name="protection-trigger"></a>
 ### 12. Protection Trigger
 
+     Definition...
+
 Assessment stereopyed with «ControlAssessment»
+
 
 
 <!-- TOC --><a name="quality"></a>
 ### 13. Quality
+
+     Definition...
 
 «Quality» Driver
 
 <!-- TOC --><a name="risk-experience"></a>
 ### 14. Risk Experience
 
+     Definition...
+
 Grouping stereotyped with «RiskExperience»
 
 <!-- TOC --><a name="risk-driver"></a>
 ### 15. Risk Driver
+
+     Definition...
 
 stereotyped with «Risk»
 
@@ -124,11 +149,15 @@ stereotyped with «Risk»
 <!-- TOC --><a name="risk-subject"></a>
 ### 16. Risk Subject
 
+     Definition...
+
 Stakeholder associated with a Goal that is negatively impacted by a «LossEvent»
 
 
 <!-- TOC --><a name="risk-assessment"></a>
 ### 17. Risk Assessment
+
+     Definition...
 
 Assessment associated with a «Risk»
 
@@ -136,11 +165,15 @@ Assessment associated with a «Risk»
 <!-- TOC --><a name="risk-assessor"></a>
 ### 18. Risk Assessor
 
+     Definition...
+
 Stakeholder associated with a Risk Assessment
 
 
 <!-- TOC --><a name="security-designer"></a>
 ### 19. Security Designer
+
+     Definition...
 
 Business Role stereotyped with «SecurityDesigner» (normally, it is associated with «ControlMeasure» and assigned to the implementation of a Security Mechanism)
 
@@ -148,11 +181,15 @@ Business Role stereotyped with «SecurityDesigner» (normally, it is associated 
 <!-- TOC --><a name="security-mechanism"></a>
 ### 20. Security Mechanism
 
+     Definition...
+
 Structure Element (Business Agent, Resource) stereotyped with «SecurityMechanism»
 
 
 <!-- TOC --><a name="threat-enabler"></a>
 ### 21. Threat Enabler
+
+     Definition...
 
 Structure Element associated with a «ThreatEvent» or a «LossEvent»
 
@@ -161,16 +198,22 @@ Structure Element associated with a «ThreatEvent» or a «LossEvent»
 <!-- TOC --><a name="threat-event"></a>
 ### 22. Threat Event
 
+     Definition...
+
 Event stereotyped with «ThreatEvent»
 
 
 <!-- TOC --><a name="threat-object"></a>
 ### 23. Threat Object
 
+     Definition...
+
  Structure Element stereotyped with «ThreatAgent»
 
 <!-- TOC --><a name="vulnerability"></a>
 ### 24. Vulnerability
+
+     Definition...
 
 Capability stereotyped with «Vulnerability»
 
