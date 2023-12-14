@@ -41,7 +41,7 @@ The terminology of our proposal to introduce notions related to **Risk** and **S
 
     A Control Capability represents a capability whose manifestation is a Control (Protection) Event.
 
-In ArchiMate, a *Control Capability* is *Capability* associated with *Control (Protection) Event*. A *Security Mechanism* holds *Control Capabilities* but other objects may also have one or more *Control Capabilities*.
+In ArchiMate, a *Control Capability* is represented by a *Capability* associated with *Control (Protection) Event*. A *Security Mechanism* holds *Control Capabilities* but other objects may also have one or more *Control Capabilities*.
 
 **Examples:** XXXX.
 
@@ -53,12 +53,16 @@ In ArchiMate, a *Control Capability* is *Capability* associated with *Control (P
 
      A Control Event (or Protection Event) is an event that prevents, directly or indirectly, Threat Events or Loss Events of a certain type.
 
-In ArchiMate, A *Control Event* is an event that must realize «ControlObjective», and negatively influences the «Likelihood» associated with «ThreatEvent» or «Loss Event». *Control Events* are manifestations of *Control Capabilities* which they are associated with.
+In ArchiMate, a *Control Event* is represented by an event that must realize «ControlObjective», and negatively influences the «Likelihood» associated with «ThreatEvent» or «Loss Event». *Control Events* are manifestations of *Control Capabilities* which they are associated with.
+
+**Examples:** YYYY.
 
 <!-- TOC --><a name="control-measure"></a>
 ### 3. Control Measure
 
-    Definition...
+    In a risk analysis process, a Control Measure is a specification of an action or set of actions that have to be performed or that should be implemented as part of the control, treatment, and mitigation of a particular risk.
+
+In ArchiMate, a *Control Measure* is represented by a *Requirement* with the stereotype «ControlMeasure». 
 
 <!-- TOC --><a name="control-objective"></a>
 ### 4. Control Objective
