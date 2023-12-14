@@ -36,6 +36,7 @@ The vocabulary of our proposal to introduce notions related to **Risk** and **Se
 
 <!-- TOC --><a name="control-capability"></a>
 ### 1. Control Capability
+---
 
 Capability associated with Control (Protection) Event
 
