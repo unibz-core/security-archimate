@@ -39,9 +39,9 @@ The terminology of our proposal to introduce notions related to **Risk** and **S
 <!-- TOC --><a name="control-capability"></a>
 ### 1. Control Capability
 
-     Definition...
+    A Control Capability represents a capability whose manifestation is a Control (Protection) Event.
 
-Capability associated with Control (Protection) Event
+In ArchiMate, a *Control Capability* is *Capability* associated with *Control (Protection) Event*. A *Security Mechanism* holds *Control Capabilities* but other objects may also have one or more *Control Capabilities*.
 
 
 <!-- TOC --><a name="control-event"></a>
@@ -94,7 +94,7 @@ Assessment stereotyped with «HazardAssessment»
 <!-- TOC --><a name="loss-event"></a>
 ### 9. Loss Event
 
-     Definition...
+     Definition... Risk Events are the manifestations of (threat) capacities, Vulnerabilities, and, sometimes, Intentions that inhere in an Agent; these Events bring about a Situation that hurts the goal of a given Agent (a Risk Subject)
 
 Event stereotyped with «LossEvent»
 
@@ -181,7 +181,7 @@ Business Role stereotyped with «SecurityDesigner» (normally, it is associated 
 <!-- TOC --><a name="security-mechanism"></a>
 ### 20. Security Mechanism
 
-     Definition...
+     Definition... is an Object that was intentionally designed to create value by protecting certain goals from Risk Events (encompassing Threat Events and Loss Events) in a systematic fashion.
 
 Structure Element (Business Agent, Resource) stereotyped with «SecurityMechanism»
 
