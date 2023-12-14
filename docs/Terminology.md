@@ -43,6 +43,10 @@ The terminology of our proposal to introduce notions related to **Risk** and **S
 
 In ArchiMate, a *Control Capability* is *Capability* associated with *Control (Protection) Event*. A *Security Mechanism* holds *Control Capabilities* but other objects may also have one or more *Control Capabilities*.
 
+**Examples:** XXXX.
+
+
+
 
 <!-- TOC --><a name="control-event"></a>
 ### 2. Control Event
