@@ -1,6 +1,6 @@
 ---
 title: Vocabulary
-layout: minimal
+layout: home
 ---
 
 ## Vocabulary
