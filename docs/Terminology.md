@@ -51,9 +51,9 @@ In ArchiMate, a *Control Capability* is *Capability* associated with *Control (P
 <!-- TOC --><a name="control-event"></a>
 ### 2. Control Event
 
-     Definition...
+     A Control Event (or Protection Event) is an event that prevents, directly or indirectly, Threat Events or Loss Events of a certain type.
 
-An event that realizes «ControlObjective», and negatively influences the «Likelihood» associated with «ThreatEvent» or «Loss Event»
+In ArchiMate, A *Control Event* is an event that must realize «ControlObjective», and negatively influences the «Likelihood» associated with «ThreatEvent» or «Loss Event». *Control Events* are manifestations of *Control Capabilities* which they are associated with.
 
 <!-- TOC --><a name="control-measure"></a>
 ### 3. Control Measure
