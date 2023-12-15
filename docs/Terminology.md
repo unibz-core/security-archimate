@@ -39,11 +39,13 @@ The terminology of our proposal to introduce notions related to **Risk** and **S
 <!-- TOC --><a name="control-capability"></a>
 ### 1. Control Capability
 
-> A *Control Capability* represents a capability whose manifestation is a *Control (Protection) Event*.
+> A *Control Capability* is a capability whose manifestation is a *Control (Protection) Event*.
 
-In ArchiMate, a *Control Capability* is represented by a *Capability* associated with *Control (Protection) Event*. A *Security Mechanism* holds *Control Capabilities* but other objects may also have one or more *Control Capabilities*.
+In ArchiMate, a *Control Capability* is represented by a *Capability* associated with *Control (Protection) Event*.
 
-**Examples:** XXXX.
+A *Security Mechanism* aggregates *Control Capabilities*. However, other objects may also have one or more *Control Capabilities*.
+
+**Examples:** Antivirus software has *Control Capabilities* to scan and eliminate malwares. Air defense systems have *Control Capabilities* to intercept certain air threats. Warning signs have *Control Capabilities* to dissuade people from doing certain things.
 
 
 
@@ -53,9 +55,14 @@ In ArchiMate, a *Control Capability* is represented by a *Capability* associated
 
 > A *Control Event* (or *Protection Event*) is an event that prevents, directly or indirectly, Threat Events or Loss Events of a certain type.
 
-In ArchiMate, a *Control Event* is represented by an event that must realize «ControlObjective», and negatively influences the «Likelihood» associated with «ThreatEvent» or «Loss Event». *Control Events* are manifestations of *Control Capabilities* which they are associated with.
+In ArchiMate, a *Control Event* is represented by an event that must negatively influences the «Likelihood» associated with events stereotyped with «ThreatEvent» or «Loss Event».
 
-**Examples:** YYYY.
+*Control Events*, directly, realize a *Goal* stereotyped with «ControlObjective» or, indirectly, realize it via the realization of a Requirement stereotyped with «ControlMeasure», which should realize that *Goal*.
+
+
+*Control Events* are manifestations of *Control Capabilities* which they are associated with.
+
+**Examples:** To realize the «ControlObjective» *Goal* of preventing software failure, removing permission to commit to the repository can be an adequate *Control Event*. Rocket interception can be a *Control Event* as manifestation of an air defense system's *Control Capabilities*; by doing so, the rocket interception event realizes the «ControlObjective» *Goal* of preventing damage to a given factory.
 
 <!-- TOC --><a name="control-measure"></a>
 ### 3. Control Measure
