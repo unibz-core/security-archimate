@@ -78,11 +78,11 @@ In ArchiMate, a *Control Measure* is represented by a *Requirement* with the ste
 <!-- TOC --><a name="control-objective"></a>
 ### 4. Control Objective
 
-> A high-level goal that should be realized by a *Control Measure*.
+> A high-level goal that should be realized by one or more *Control Measures*.
 
-TTTT.
+In ArchiMate, a *Control Objective* is represented by a *Goal* stereotyped with «ControlObjective». A *Control Objective* is realized by a a *Requirement* steretyped with «ControlMeasure».
 
-**Examples:** XXXX.
+**Examples:** Preventing work accidents. Preventing data breaches. Preventing software failure.
 
 <!-- TOC --><a name="disposition"></a>
 ### 5. Disposition
