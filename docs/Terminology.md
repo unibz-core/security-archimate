@@ -87,11 +87,11 @@ In ArchiMate, a *Control Objective* is represented by a *Goal* stereotyped with 
 <!-- TOC --><a name="disposition"></a>
 ### 5. Disposition
 
-     Definition...
+> A *Disposition* is a property of being disposed in some specific way. It refers to possible behaviors something may have under certain conditions.
 
-Capability
+In ArchiMate, a *Disposition* is represented by a *Capability*.  Abilities, capabilities, capacities, tendencies, powers, liabilities, vulnerabilities, and similar terms refer to *Dispositions*, in this sense.
 
-**Examples:** XXXX.
+**Examples:** Flamability of a piece of wood. Vulnerability of an employee to fall for a phishing attack. Commit permission.
 
 <!-- TOC --><a name="hazard-assessment"></a>
 ### 6. Hazard Assessment
