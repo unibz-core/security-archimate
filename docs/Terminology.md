@@ -53,11 +53,11 @@ A *Security Mechanism* aggregates *Control Capabilities*. However, other objects
 <!-- TOC --><a name="control-event"></a>
 ### 2. Control Event
 
-> A *Control Event* (or *Protection Event*) is an event that prevents, directly or indirectly, Threat Events or Loss Events of a certain type.
+> A *Control Event* (or *Protection Event*) is an event that prevents, directly or indirectly, *Threat Events* or *Loss Events* of a certain type.
 
 In ArchiMate, a *Control Event* is represented by an event that must negatively influences the «Likelihood» associated with events stereotyped with «ThreatEvent» or «Loss Event».
 
-*Control Events*, directly, realize a *Goal* stereotyped with «ControlObjective» or, indirectly, realize it via the realization of a Requirement stereotyped with «ControlMeasure», which should realize that *Goal*.
+*Control Events*, directly, realize a *Goal* stereotyped with «ControlObjective» or, indirectly, realize it via the realization of a *Requirement* stereotyped with «ControlMeasure», which should realize that *Goal*.
 
 
 *Control Events* are manifestations of *Control Capabilities* which they are associated with.
@@ -69,12 +69,16 @@ In ArchiMate, a *Control Event* is represented by an event that must negatively 
 
 > In a risk analysis process, a *Control Measure* is a specification of an action or set of actions that have to be performed or that should be implemented as part of the control, treatment, and mitigation of a particular risk.
 
-In ArchiMate, a *Control Measure* is represented by a *Requirement* with the stereotype «ControlMeasure». 
+In ArchiMate, a *Control Measure* is represented by a *Requirement* with the stereotype «ControlMeasure». A a *Control Measure* is realized by the implementation of a *Security Mechanism* or by a *Control Event*.
+
+**Examples:** Enforcing no-logs policy within a VPN company. Autoupdate feature of a piece of software. Warning signs nearby dangerous places inside a factory.
+
+**Note:** A *Control Measure* is a *Requirement* and, as such, a proposition or statement. It is not a concrete thing. For example, the warning signs above correspond to the proposition regarding employing them; the warning signs themselves can be seen as *Security Mechanism*, placed by an implementation event assigned to a *Security Designer*.
 
 <!-- TOC --><a name="control-objective"></a>
 ### 4. Control Objective
 
-    > Definition...
+> A high-level goal that should be realized by a *Control Measure*.
 
 TTTT.
 
