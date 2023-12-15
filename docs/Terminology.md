@@ -96,12 +96,12 @@ In ArchiMate, a *Disposition* is represented by a *Capability*.  Abilities, capa
 <!-- TOC --><a name="hazard-assessment"></a>
 ### 6. Hazard Assessment
 
-     Definition...
+> A *Hazard Assessment*, proposed to represent UFO situations that activate *Threat Capabilities*, is an identified state of affairs that increases the likelihood of a *Threat Event* and, consequently, of a *Loss Event*.
 
-Assessment stereotyped with «HazardAssessment»
+In ArchiMate, a *Hazard Assessment* is an assessment stereotyped with «HazardAssessment».
 
 
-**Examples:** XXXX.
+**Examples:** Employees working too many hours. Disorganized work place in a factory. Unclear procedures for emergency.
 
 <!-- TOC --><a name="intention"></a>
 ### 7. Intention
