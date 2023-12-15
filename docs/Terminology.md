@@ -106,9 +106,11 @@ In ArchiMate, a *Hazard Assessment* is an assessment stereotyped with «HazardAs
 <!-- TOC --><a name="intention"></a>
 ### 7. Intention
 
-     Definition...
+     An *Intention* is an internal mode of an agent that is committed to the realization of a goal, which is the propositional content of the *Intention*.
 
-«QualityGoal» Goal, «FunctionalGoal» Goal, Goal
+In ArchiMate, an *Intention* is represented by a *Goal*.
+
+**Examples:** AAAA.
 
 
 <!-- TOC --><a name="likelihood"></a>
