@@ -55,7 +55,7 @@ A *Security Mechanism* aggregates *Control Capabilities*. However, other objects
 
 > A *Control Event* (or *Protection Event*) is an event that prevents, directly or indirectly, *Threat Events* or *Loss Events* of a certain type.
 
-In ArchiMate, a *Control Event* is represented by an event that must negatively influences the «Likelihood» associated with events stereotyped with «ThreatEvent» or «Loss Event».
+In ArchiMate, a *Control Event* is represented by an event that must negatively influence the «Likelihood» associated with events stereotyped with «ThreatEvent» or «Loss Event».
 
 *Control Events*, directly, realize a *Goal* stereotyped with «ControlObjective» or, indirectly, realize it via the realization of a *Requirement* stereotyped with «ControlMeasure», which should realize that *Goal*.
 
@@ -80,7 +80,7 @@ In ArchiMate, a *Control Measure* is represented by a *Requirement* with the ste
 
 > A high-level goal that should be realized by one or more *Control Measures*.
 
-In ArchiMate, a *Control Objective* is represented by a *Goal* stereotyped with «ControlObjective». A *Control Objective* is realized by a a *Requirement* steretyped with «ControlMeasure».
+In ArchiMate, a *Control Objective* is represented by a *Goal* stereotyped with «ControlObjective». A *Control Objective* is realized by a a *Requirement* stereotyped with «ControlMeasure».
 
 **Examples:** Preventing work accidents. Preventing data breaches. Preventing software failure.
 
@@ -110,22 +110,24 @@ In ArchiMate, a *Hazard Assessment* is an assessment stereotyped with «HazardAs
 
 In ArchiMate, an *Intention* is represented by a *Goal*.
 
-**Examples:** AAAA.
+**Examples:** Hacker's intention to hack a company. Robber's intentions. Competitor's intentions.
 
 
 <!-- TOC --><a name="likelihood"></a>
 ### 8. Likelihood
 
-     Definition...
+> Definition...
 
-«Likelihood» Assessment connected to a triggering association between Value Events or to a «ValueExperience»
+In ArchiMate, Likelihood is represented by an *Assessment* with the stereotype «Likelihood»...
+
+connected to a triggering association between Value Events or to a «ValueExperience»
 
 **Examples:** XXXX.
 
 <!-- TOC --><a name="loss-event"></a>
 ### 9. Loss Event
 
-     Definition... Risk Events are the manifestations of (threat) capacities, Vulnerabilities, and, sometimes, Intentions that inhere in an Agent; these Events bring about a Situation that hurts the goal of a given Agent (a Risk Subject)
+> Definition... Risk Events are the manifestations of (threat) capacities, Vulnerabilities, and, sometimes, Intentions that inhere in an Agent; these Events bring about a Situation that hurts the goal of a given Agent (a Risk Subject)
 
 Event stereotyped with «LossEvent»
 
@@ -136,9 +138,9 @@ Event stereotyped with «LossEvent»
 <!-- TOC --><a name="object-at-risk"></a>
 ### 10. Object at Risk
 
-     Definition...
+> Definition...
 
-Structure Element stereotyped with «AssetAtRisk»
+In ArchiMate, an *Object at Risk* is represented by a Structure Element stereotyped with «AssetAtRisk».
 
 
 **Examples:** XXXX.
@@ -146,9 +148,9 @@ Structure Element stereotyped with «AssetAtRisk»
 <!-- TOC --><a name="protected-subject"></a>
 ### 11. Protected Subject
 
-     Definition...
+> Definition...
 
-A specialization of Risk Subject associated with a «ControlObjective»
+In ArchiMate, a *Protected Subject* is represented by a specialization of Risk Subject associated with a «ControlObjective»
 
 
 **Examples:** XXXX.
@@ -156,7 +158,7 @@ A specialization of Risk Subject associated with a «ControlObjective»
 <!-- TOC --><a name="protection-trigger"></a>
 ### 12. Protection Trigger
 
-     Definition...
+> Definition...
 
 Assessment stereopyed with «ControlAssessment»
 
@@ -165,7 +167,7 @@ Assessment stereopyed with «ControlAssessment»
 <!-- TOC --><a name="quality"></a>
 ### 13. Quality
 
-     Definition...
+> Definition...
 
 «Quality» Driver
 
@@ -174,7 +176,7 @@ Assessment stereopyed with «ControlAssessment»
 <!-- TOC --><a name="risk-experience"></a>
 ### 14. Risk Experience
 
-     Definition...
+> Definition...
 
 Grouping stereotyped with «RiskExperience»
 
@@ -184,7 +186,7 @@ Grouping stereotyped with «RiskExperience»
 <!-- TOC --><a name="risk-driver"></a>
 ### 15. Risk Driver
 
-     Definition...
+> Definition...
 
 stereotyped with «Risk»
 
@@ -194,7 +196,7 @@ stereotyped with «Risk»
 <!-- TOC --><a name="risk-subject"></a>
 ### 16. Risk Subject
 
-     Definition...
+> Definition...
 
 Stakeholder associated with a Goal that is negatively impacted by a «LossEvent»
 
@@ -205,7 +207,7 @@ Stakeholder associated with a Goal that is negatively impacted by a «LossEvent�
 <!-- TOC --><a name="risk-assessment"></a>
 ### 17. Risk Assessment
 
-     Definition...
+> Definition...
 
 Assessment associated with a «Risk»
 
@@ -215,7 +217,7 @@ Assessment associated with a «Risk»
 <!-- TOC --><a name="risk-assessor"></a>
 ### 18. Risk Assessor
 
-     Definition...
+> Definition...
 
 Stakeholder associated with a Risk Assessment
 
@@ -225,7 +227,7 @@ Stakeholder associated with a Risk Assessment
 <!-- TOC --><a name="security-designer"></a>
 ### 19. Security Designer
 
-     Definition...
+> Definition...
 
 Business Role stereotyped with «SecurityDesigner» (normally, it is associated with «ControlMeasure» and assigned to the implementation of a Security Mechanism)
 
@@ -235,7 +237,7 @@ Business Role stereotyped with «SecurityDesigner» (normally, it is associated 
 <!-- TOC --><a name="security-mechanism"></a>
 ### 20. Security Mechanism
 
-     Definition... is an Object that was intentionally designed to create value by protecting certain goals from Risk Events (encompassing Threat Events and Loss Events) in a systematic fashion.
+> Definition... is an Object that was intentionally designed to create value by protecting certain goals from Risk Events (encompassing Threat Events and Loss Events) in a systematic fashion.
 
 Structure Element (Business Agent, Resource) stereotyped with «SecurityMechanism»
 
@@ -245,7 +247,7 @@ Structure Element (Business Agent, Resource) stereotyped with «SecurityMechanis
 <!-- TOC --><a name="threat-enabler"></a>
 ### 21. Threat Enabler
 
-     Definition...
+> Definition...
 
 Structure Element associated with a «ThreatEvent» or a «LossEvent»
 
@@ -254,7 +256,7 @@ Structure Element associated with a «ThreatEvent» or a «LossEvent»
 <!-- TOC --><a name="threat-event"></a>
 ### 22. Threat Event
 
-     Definition...
+> Definition...
 
 Event stereotyped with «ThreatEvent»
 
@@ -264,7 +266,7 @@ Event stereotyped with «ThreatEvent»
 <!-- TOC --><a name="threat-object"></a>
 ### 23. Threat Object
 
-     Definition...
+> Definition...
 
  Structure Element stereotyped with «ThreatAgent»
 
@@ -274,7 +276,7 @@ Event stereotyped with «ThreatEvent»
 <!-- TOC --><a name="vulnerability"></a>
 ### 24. Vulnerability
 
-     Definition...
+> Definition...
 
 Capability stereotyped with «Vulnerability»
 
