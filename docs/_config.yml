@@ -13,7 +13,7 @@ logo: "just-the-docs.png"
 # Set a path/url to a favicon that will be displayed by the browser
 # favicon_ico: "/assets/images/favicon.ico"
 # If the path to your favicon is /favicon.ico, you can leave favicon_ico unset.
-favicon_ico:
+favicon_ico: "sec.ico"
 
 aux_links:
   Repository: https://github.com/unibz-core/security-archimate
