@@ -1,6 +1,7 @@
 ## An Ontological Approach to Risk and Security Modeling in ArchiMate
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10005209.svg)](https://doi.org/10.5281/zenodo.10005209) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10005209.svg)](https://doi.org/10.5281/zenodo.10005209) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Static Badge](https://img.shields.io/badge/ArchiMate-blue)](https://publications.opengroup.org/archimate-library)
+
 
 **Official website:** [https://unibz-core.github.io/security-archimate/](https://unibz-core.github.io/security-archimate/)
 
