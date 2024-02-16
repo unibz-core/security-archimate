@@ -24,7 +24,7 @@ Through an ontological approach, we propose redesigning the security aspects of 
 
 To cite this proposal, use:
 
-Oliveira, Í., Sales, T.P., Almeida, J.P.A., Baratella, R., Fumagalli, M., Guizzardi, G. (2024). *Ontology-based Security Modeling in ArchiMate*. Software and Systems Modeling. Forthcoming.
+Oliveira, Í., Sales, T.P., Almeida, J.P.A. et al. Ontology-based security modeling in ArchiMate. Softw Syst Model (2024). https://doi.org/10.1007/s10270-024-01149-1
 
 ## Authors
 
