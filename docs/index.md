@@ -19,7 +19,7 @@ This website supplements our publications in this matter and serves as official 
 
 To cite this proposal, use:
 
-Oliveira, Í., Sales, T.P., Almeida, J.P.A. et al. Ontology-based security modeling in ArchiMate. Softw Syst Model (2024). https://doi.org/10.1007/s10270-024-01149-1
+Oliveira, Í., Sales, T.P., Almeida, J.P.A. et al. Ontology-based security modeling in ArchiMate. Softw Syst Model (2024). [https://doi.org/10.1007/s10270-024-01149-1](https://doi.org/10.1007/s10270-024-01149-1)
 
 ## Authors
 
