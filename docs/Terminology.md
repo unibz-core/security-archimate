@@ -47,7 +47,7 @@ A *Security Mechanism* aggregates *Control Capabilities*. However, other objects
 
 **Examples:** Antivirus software has *Control Capabilities* to scan and eliminate malware. Air defense systems have *Control Capabilities* to intercept certain air threats. Warning signs have *Control Capabilities* to dissuade people from doing certain things.
 
-
+<!-- <img src="image.png" width="200" height="100"> -->
 
 
 <!-- TOC --><a name="control-event"></a>
@@ -123,18 +123,16 @@ In ArchiMate, *Likelihood* is represented by an *Assessment* with the stereotype
 
 Events that prevent others from happening can be understood as negatively influencing the likelihood of the occurrence of the latter.
 
-**Examples:** XXXX.
+**Examples:** 20% likelihood of data breaches. 30% likelihood of vulnerability exploitation causing data breaches.
 
 <!-- TOC --><a name="loss-event"></a>
 ### 9. Loss Event
 
-> Definition... Risk Events are the manifestations of (threat) capacities, Vulnerabilities, and, sometimes, Intentions that inhere in an Agent; these Events bring about a Situation that hurts the goal of a given Agent (a Risk Subject)
+> *Loss Events* are events that compromise (negatively impact) stakeholders' goals.
 
-Event stereotyped with «LossEvent»
+In ArchiMate, *Loss Events* are events stereotyped with «LossEvent». There is a negative INFLUENCES association between a *Loss Event* and a *Goal* of a given Agent (a Risk Subject), which captures why an event is considered a loss. Loss events are caused (triggered) by *Threat Events*.
 
-
-**Examples:** XXXX.
-
+**Examples:** Production loss event hurts the Business owner's goal of maximizing production.
 
 <!-- TOC --><a name="object-at-risk"></a>
 ### 10. Object at Risk
