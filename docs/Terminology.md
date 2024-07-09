@@ -45,7 +45,7 @@ In ArchiMate, a *Control Capability* is represented by a *Capability* associated
 
 A *Security Mechanism* aggregates *Control Capabilities*. However, other objects may also have one or more *Control Capabilities*.
 
-**Examples:** Antivirus software has *Control Capabilities* to scan and eliminate malwares. Air defense systems have *Control Capabilities* to intercept certain air threats. Warning signs have *Control Capabilities* to dissuade people from doing certain things.
+**Examples:** Antivirus software has *Control Capabilities* to scan and eliminate malware. Air defense systems have *Control Capabilities* to intercept certain air threats. Warning signs have *Control Capabilities* to dissuade people from doing certain things.
 
 
 
@@ -117,11 +117,11 @@ In ArchiMate, an *Intention* is represented by a *Goal*.
 <!-- TOC --><a name="likelihood"></a>
 ### 8. Likelihood
 
-> Definition...
+> A likelihood assignment describes the chances of occurrence of certain types of events or the chances of events to cause (or be followed by) other events.
 
-In ArchiMate, Likelihood is represented by an *Assessment* with the stereotype «Likelihood»...
+In ArchiMate, *Likelihood* is represented by an *Assessment* with the stereotype «Likelihood», which can be connected to an event or the triggering association between events. Since there is no sense in assigning likelihood to individual events, the likelihood assignment should be understood as describing regularities, so applicable to types of events.
 
-connected to a triggering association between Value Events or to a «ValueExperience»
+Events that prevent others from happening can be understood as negatively influencing the likelihood of the occurrence of the latter.
 
 **Examples:** XXXX.
 
