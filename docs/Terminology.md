@@ -117,7 +117,7 @@ In ArchiMate, an *Intention* is represented by a *Goal*.
 <!-- TOC --><a name="likelihood"></a>
 ### 8. Likelihood
 
-> A likelihood assignment describes the chances of occurrence of certain types of events or the chances of events to cause (or be followed by) other events.
+> A *Likelihood* assignment describes the chances of occurrence of certain types of events or the chances of events to cause (or be followed by) other events.
 
 In ArchiMate, *Likelihood* is represented by an *Assessment* with the stereotype «Likelihood», which can be connected to an event or the triggering association between events. Since there is no sense in assigning likelihood to individual events, the likelihood assignment should be understood as describing regularities, so applicable to types of events.
 
@@ -130,47 +130,54 @@ Events that prevent others from happening can be understood as negatively influe
 
 > *Loss Events* are events that compromise (negatively impact) stakeholders' goals.
 
-In ArchiMate, *Loss Events* are events stereotyped with «LossEvent». There is a negative INFLUENCES association between a *Loss Event* and a *Goal* of a given Agent (a Risk Subject), which captures why an event is considered a loss. Loss events are caused (triggered) by *Threat Events*.
+In ArchiMate, *Loss Events* are events stereotyped with «LossEvent». There is a negative *influences* association between a *Loss Event* and a *Goal* of a given Agent (a *Risk Subject*), which captures why an event is considered a loss. Loss events are caused (triggered) by *Threat Events*.
 
 **Examples:** Production loss event hurts the Business owner's goal of maximizing production.
 
 <!-- TOC --><a name="object-at-risk"></a>
 ### 10. Object at Risk
 
-> Definition...
+> The asset or resource at stake, i.e., the thing that may be harmed or damaged in a *Loss Event*.
 
 In ArchiMate, an *Object at Risk* is represented by a Structure Element stereotyped with «AssetAtRisk».
 
+In the risk ontology, we distinguish two roles played by objects in a *Risk Experience*, namely the OBJECT AT RISK and the *Threat Enabler*. In both cases, the dispositions of these objects enable the occurrence of threat and *Loss Events*. The difference between them is that the former is the thing at stake (i.e., the thing that may be harmed or damaged in a *Loss Event*), whilst the latter is simply a risk-enabling thing, as it is not exposed to any potential damage.
 
-**Examples:** XXXX.
+
+**Examples:** To exemplify this distinction between an *Object at Risk* and a *Threat Enabler*, consider that a machine failed and caused a production loss. It was the machine’s vulnerability that caused it to fail. Still, the integrity of the machine might not be affected by the failure at all. In this case, the machine is playing the role of a *Threat Enabler*.
 
 <!-- TOC --><a name="protected-subject"></a>
 ### 11. Protected Subject
 
-> Definition...
+> An agent whose goals are protected by the effects (*Control (Protection) Events*) of a *Security Mechanism*.
 
-In ArchiMate, a *Protected Subject* is represented by a specialization of Risk Subject associated with a «ControlObjective»
+This protection effect is the prevention of *Risk Events* (*Threat* or *Loss Events*) that could hurt the agent's goals.
 
+In ArchiMate, a *Protected Subject* is represented by a specialization of *Risk Subject* associated with a «ControlObjective»
 
-**Examples:** XXXX.
+The *Protected Subject* specializes *Risk Subject*, though some *Risk Subjects* might not be *Protected Subject* due to lack of protection.
+
+**Examples:** For example, a company has a *Control Objective* of protecting customers’ data from cyberattacks. Based on an assessment, a series of *Control Measures* should be implemented by the company’s cybersecurity team, playing the role of *Security Designer*; both the company and the customers may be regarded as *Protected Subjects* since they have assets at risk that should be protected.
 
 <!-- TOC --><a name="protection-trigger"></a>
 ### 12. Protection Trigger
 
-> Definition...
+> Certain state of affairs or environmental conditions that activate *Control Capabilities*.
 
-Assessment stereopyed with «ControlAssessment»
+In ArchiMate, a *Protection Trigger* is represented as an *Assessment* stereotyped with «ControlAssessment».
 
-**Examples:** XXXX.
+The advantage of explicitly accounting for the situations that trigger the *Protection (Control) Event* is that we can represent how several environmental factors increase the effectiveness of the *Security Mechanism*, assuming its effectiveness is directly connected to how likely it works properly, manifesting the *Protection Event*.
+
+**Examples:** A circuit breaker manifests its capability of interrupting a current flow when a fault condition is detected (heating or magnetic effects of electric current).
 
 <!-- TOC --><a name="quality"></a>
 ### 13. Quality
 
-> Definition...
+> In the Unified Foundational Ontology, a *quality* is an objectification of a property that can be directly evaluated (projected) into certain value spaces.
 
-«Quality» Driver
+In ArchiMate, a «Quality» Driver
 
-**Examples:** XXXX.
+**Examples:** Color, quantitative risk, size, weight.
 
 <!-- TOC --><a name="risk-experience"></a>
 ### 14. Risk Experience
@@ -226,7 +233,7 @@ Stakeholder associated with a Risk Assessment
 <!-- TOC --><a name="security-designer"></a>
 ### 19. Security Designer
 
-> Definition...
+> An agent responsible for the introduction of a Security Mechanism.
 
 Business Role stereotyped with «SecurityDesigner» (normally, it is associated with «ControlMeasure» and assigned to the implementation of a Security Mechanism)
 
