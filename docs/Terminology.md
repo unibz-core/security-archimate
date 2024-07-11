@@ -263,7 +263,7 @@ Structure Element (Business Agent, Resource) stereotyped with «SecurityMechanis
 
 > Definition...
 
-Structure Element associated with a «ThreatEvent» or a «LossEvent»
+In ArchiMate, a *Threat Enabler* is represented as a Structure Element associated with a «ThreatEvent» or a «LossEvent».
 
 **Examples:** XXXX.
 
@@ -272,7 +272,7 @@ Structure Element associated with a «ThreatEvent» or a «LossEvent»
 
 > Definition...
 
-Event stereotyped with «ThreatEvent»
+In ArchiMate, a *Threat Event* is represented as an event stereotyped with «ThreatEvent».
 
 
 **Examples:** XXXX.
@@ -282,7 +282,7 @@ Event stereotyped with «ThreatEvent»
 
 > Definition...
 
- Structure Element stereotyped with «ThreatAgent»
+ In ArchiMate, a *Threat Object* is represented as a Structure Element stereotyped with «ThreatAgent».
 
 
 **Examples:** XXXX.
@@ -292,7 +292,7 @@ Event stereotyped with «ThreatEvent»
 
 > Definition...
 
-Capability stereotyped with «Vulnerability»
+In ArchiMate, a *Vulnerability* is represented as a Capability stereotyped with «Vulnerability».
 
 
 **Examples:** XXXX.
