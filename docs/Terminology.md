@@ -175,24 +175,34 @@ The advantage of explicitly accounting for the situations that trigger the *Prot
 
 > In the Unified Foundational Ontology, a *quality* is an objectification of a property that can be directly evaluated (projected) into certain value spaces.
 
-In ArchiMate, a «Quality» Driver
+In ArchiMate, a *quality* is represented as a Driver stereotyped with «Quality». Specific values are assigned through an assessment associated with the «Quality» Driver.
 
-**Examples:** Color, quantitative risk, size, weight.
+**Examples:** Consider an airplane seat (*Resource*) associated with seat width («Quality» Driver), associated with an assessment 43 cm. Other examples include the weight of a person, which can be measured in kilograms or pounds, and the color of a flower, which can be specified in RGB or HSV.
 
 <!-- TOC --><a name="risk-experience"></a>
 ### 14. Risk Experience
 
 > Definition...
 
-Grouping stereotyped with «RiskExperience»
+A second characteristic of use value is that, ultimately, it is ascribed to experiences, not objects. This may sound counter intuitive at first, as we have mentioned several examples of value seemly being attributed to objects. To clarify this point, let us go back to the winter jacket example. To ascribe some value to a jacket, we need to consider the situations in which we envision ourselves using such a jacket. It could be a snowy day while we go to work, a winter hike on the Italian Dolomites, or a rainy evening when we go to a dinner. In each of these situations, we will have different goals that we expect the jacket to help us fulfill, such as staying warm and dry, looking fashionable, keeping our belongings and so on. The value that we ascribe to the jacket, thus, will be “calculated” from the value ascribed in these envisioned experiences. Despite its subjective nature and the fact that value is ultimately grounded on experiences, value is directly affected by the intrinsic properties of the objects that participate in these experiences. For instance, if a jacket is worn during a hike, it will be more or less valuable depending on its weight (an intrinsic quality that inheres in the jacket), as lighter jackets facilitate exercise. The same analysis holds for a jacket’s waterproof capability on a rainy day: the more it can repel water, the more it satisfies its wearer’s goal of staying dry. By considering the whole experience in which objects are used, we are able to explain that not only intrinsic properties of things affect their value, but also the properties of other objects and of the experience itself. This is useful, for instance, to explain that the value experienced by a user of a movie streaming service is affected by the speed of the internet connection used to access it, as well as the screen resolution of the streaming device.
+
+The experiential perspective is depicted in Figs. 1 and 2. As argued in the previous section, value and risk can be ascribed to both objects and events. Still, whenever they are ascribed to an object, one must always consider all the relevant events involving it, which will ultimately ground value and risk. These events, named VALUE and RISK EXPERIENCE, have some agents as key participants, deemed VALUE and RISK SUBJECT respectively. These identify the perspective from which the judgment is made and whose INTENTIONS are considered.
+
+In ArchiMate, *Risk Experience* is represented as an Grouping element stereotyped with «RiskExperience»
+
+*Risk Experience* aggregates the risk elements and the relations, including *Hazard Assessment*, *Threat Agent*, *Loss Event*, *Vulnerability*, *Asset at Risk*, and *Threat Enabler*.
 
 
 **Examples:** XXXX.
 
 <!-- TOC --><a name="risk-driver"></a>
-### 15. Risk Driver
+### 15. Risk
 
 > Definition...
+
+The second represents risk from a quantitative perspective, commonly described as probability × impact. We map this concept as a DRIVER stereotyped as RISK, as drivers represent “conditions that motivate an organization to define its goals and implement the changes necessary to achieve them”
+
+Associated to this experience, there is RISK simply labeled “Production loss”, which reflects the likelihood that all the parts of the experience occur and cause each other, as well as on the quantitative impact of the potential losses. Lastly, the RISK ASSESSMENT “Risk of production loss is unacceptable” concerns the production loss RISK.
 
 stereotyped with «Risk»
 
@@ -202,13 +212,11 @@ stereotyped with «Risk»
 <!-- TOC --><a name="risk-subject"></a>
 ### 16. Risk Subject
 
-> Definition...
+> The agent whose *Intentions* (goals) could be affected by a potential loss.
 
-Stakeholder associated with a Goal that is negatively impacted by a «LossEvent»
+In ArchiMate, a *Risk Subject* is represented as a Stakeholder associated with a Goal that is negatively impacted by a «LossEvent».
 
-
-
-**Examples:** XXXX.
+**Examples:** Business owner.
 
 <!-- TOC --><a name="risk-assessment"></a>
 ### 17. Risk Assessment
