@@ -202,9 +202,9 @@ In ArchiMate, *Risk Experience* is represented as an Grouping element stereotype
 
 The second represents risk from a quantitative perspective, commonly described as probability × impact. We map this concept as a DRIVER stereotyped as RISK, as drivers represent “conditions that motivate an organization to define its goals and implement the changes necessary to achieve them”
 
-Associated to this experience, there is RISK simply labeled “Production loss”, which reflects the likelihood that all the parts of the experience occur and cause each other, as well as on the quantitative impact of the potential losses. Lastly, the RISK ASSESSMENT “Risk of production loss is unacceptable” concerns the production loss RISK.
+Associated to this experience, there is RISK simply labelled “Production loss”, which reflects the likelihood that all the parts of the experience occur and cause each other, as well as on the quantitative impact of the potential losses. Lastly, the RISK ASSESSMENT “Risk of production loss is unacceptable” concerns the production loss RISK.
 
-stereotyped with «Risk»
+Driver stereotyped with «Risk»
 
 
 **Examples:** XXXX.
