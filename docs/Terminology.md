@@ -69,7 +69,7 @@ In ArchiMate, a *Control Event* is represented by an event that must negatively 
 
 > In a risk analysis process, a *Control Measure* is a specification of an action or set of actions that have to be performed or that should be implemented as part of the control, treatment, and mitigation of a particular risk.
 
-In ArchiMate, a *Control Measure* is represented by a *Requirement* with the stereotype «ControlMeasure». A a *Control Measure* is realized by the implementation of a *Security Mechanism* or by a *Control Event*.
+In ArchiMate, a *Control Measure* is represented by a *Requirement* with the stereotype «ControlMeasure». A *Control Measure* is realized by the implementation of a *Security Mechanism* or by a *Control Event*.
 
 **Examples:** Enforcing no-logs policy within a VPN company. Autoupdate feature of a piece of software. Warning signs nearby dangerous places inside a factory.
 
@@ -79,7 +79,7 @@ In ArchiMate, a *Control Measure* is represented by a *Requirement* with the ste
 <!-- TOC --><a name="control-objective"></a>
 ### 4. Control Objective
 
-> A high-level goal that should be realized by one or more *Control Measures*.
+> A *Control Objective*  is a high-level goal that should be realized by one or more *Control Measures*.
 
 In ArchiMate, a *Control Objective* is represented by a *Goal* stereotyped with «ControlObjective». A *Control Objective* is realized by a a *Requirement* stereotyped with «ControlMeasure».
 
@@ -117,7 +117,7 @@ In ArchiMate, an *Intention* is represented by a *Goal*.
 <!-- TOC --><a name="likelihood"></a>
 ### 8. Likelihood
 
-> A *Likelihood* assignment describes the chances of occurrence of certain types of events or the chances of events to cause (or be followed by) other events.
+> A *Likelihood* assignment refers to the chances of occurrence of certain types of events or the chances of events to cause (or be followed by) other events.
 
 In ArchiMate, *Likelihood* is represented by an *Assessment* with the stereotype «Likelihood», which can be connected to an event or the triggering association between events. Since there is no sense in assigning likelihood to individual events, the likelihood assignment should be understood as describing regularities, so applicable to types of events.
 
@@ -137,7 +137,7 @@ In ArchiMate, *Loss Events* are events stereotyped with «LossEvent». There is 
 <!-- TOC --><a name="object-at-risk"></a>
 ### 10. Object at Risk
 
-> The asset or resource at stake, i.e., the thing that may be harmed or damaged in a *Loss Event*.
+> An *Object at Risk* is an asset or resource at stake, i.e., the thing that may be harmed or damaged in a *Loss Event*.
 
 In ArchiMate, an *Object at Risk* is represented by a Structure Element stereotyped with «AssetAtRisk».
 
@@ -149,7 +149,7 @@ In the risk ontology, we distinguish two roles played by objects in a *Risk Expe
 <!-- TOC --><a name="protected-subject"></a>
 ### 11. Protected Subject
 
-> An agent whose goals are protected by the effects (*Control (Protection) Events*) of a *Security Mechanism*.
+> A *Protected Subject* is an agent whose goals are protected by the effects (*Control (Protection) Events*) of a *Security Mechanism*.
 
 This protection effect is the prevention of *Risk Events* (*Threat* or *Loss Events*) that could hurt the agent's goals.
 
@@ -162,7 +162,7 @@ The *Protected Subject* specializes *Risk Subject*, though some *Risk Subjects* 
 <!-- TOC --><a name="protection-trigger"></a>
 ### 12. Protection Trigger
 
-> Certain state of affairs or environmental conditions that activate *Control Capabilities*.
+> A *Protection Trigger* corresponds to certain state of affairs or environmental conditions that activate *Control Capabilities*.
 
 In ArchiMate, a *Protection Trigger* is represented as an *Assessment* stereotyped with «ControlAssessment».
 
@@ -182,18 +182,18 @@ In ArchiMate, a *quality* is represented as a Driver stereotyped with «Quality�
 <!-- TOC --><a name="risk-experience"></a>
 ### 14. Risk Experience
 
-> Definition...
+> A *Risk Experience* corresponds to a complex or compound event composed of *Risk Events* (*Threat* or *Loss Events*) where the relevant entities take place, including a *Risk Subject*, *Object At Risk*, *Threat Agents*, etc.
 
-A second characteristic of use value is that, ultimately, it is ascribed to experiences, not objects. This may sound counter intuitive at first, as we have mentioned several examples of value seemly being attributed to objects. To clarify this point, let us go back to the winter jacket example. To ascribe some value to a jacket, we need to consider the situations in which we envision ourselves using such a jacket. It could be a snowy day while we go to work, a winter hike on the Italian Dolomites, or a rainy evening when we go to a dinner. In each of these situations, we will have different goals that we expect the jacket to help us fulfill, such as staying warm and dry, looking fashionable, keeping our belongings and so on. The value that we ascribe to the jacket, thus, will be “calculated” from the value ascribed in these envisioned experiences. Despite its subjective nature and the fact that value is ultimately grounded on experiences, value is directly affected by the intrinsic properties of the objects that participate in these experiences. For instance, if a jacket is worn during a hike, it will be more or less valuable depending on its weight (an intrinsic quality that inheres in the jacket), as lighter jackets facilitate exercise. The same analysis holds for a jacket’s waterproof capability on a rainy day: the more it can repel water, the more it satisfies its wearer’s goal of staying dry. By considering the whole experience in which objects are used, we are able to explain that not only intrinsic properties of things affect their value, but also the properties of other objects and of the experience itself. This is useful, for instance, to explain that the value experienced by a user of a movie streaming service is affected by the speed of the internet connection used to access it, as well as the screen resolution of the streaming device.
+According to COVER, risk is always experiential. Although we speak of *Objects at Risk* and *Threat Objects* in ordinary language, the risk is derived from *Risk Assessment* of *Risk Experiences* wherein those objects participate. For example, to identify and assess the risks someone's smartphone is exposed to, it is necessary to describe (i) which goals depend on the functional smartphone (getting in contact with friends, internet browsing, etc.); (ii) what can happen to the smartphone that could hinder its capability to achieve those goals; (iii) which events could cause events like these. Then, the risk the smartphone is exposed to is the aggregation of the risk of falling, breaking, being stolen, and so on. 
 
-The experiential perspective is depicted in Figs. 1 and 2. As argued in the previous section, value and risk can be ascribed to both objects and events. Still, whenever they are ascribed to an object, one must always consider all the relevant events involving it, which will ultimately ground value and risk. These events, named VALUE and RISK EXPERIENCE, have some agents as key participants, deemed VALUE and RISK SUBJECT respectively. These identify the perspective from which the judgment is made and whose INTENTIONS are considered.
+Risk is always relative. This means an event might be regarded as a *Threat Event* by one agent, whereas another agent perceives it as a *Opportunity Event*. For example, from the attacker's perspective, a successful phishing attack that compromises confidential information is seen as a *Gain Event*, a positive value event that brings about situations that satisfy the attacker's goals; however, from the victim's viewpoint (*Risk Subject*), it is a *Loss Event*, caused by a chain of *Threat Events*, that hurts their goals. The relativity of risks comes from their negative impact on goals. If one is concerned about the confidentiality of their data, this is because the risk of compromising it jeopardizes their goals, such as data privacy or avoiding identity theft.
 
 In ArchiMate, *Risk Experience* is represented as an Grouping element stereotyped with «RiskExperience»
 
 *Risk Experience* aggregates the risk elements and the relations, including *Hazard Assessment*, *Threat Agent*, *Loss Event*, *Vulnerability*, *Asset at Risk*, and *Threat Enabler*.
 
 
-**Examples:** XXXX.
+**Examples:** The *Risk Experience* of a phishing attack involves all steps of the attack up to the data compromise, for example.
 
 <!-- TOC --><a name="risk-driver"></a>
 ### 15. Risk
@@ -243,10 +243,10 @@ Stakeholder associated with a Risk Assessment
 
 > An agent responsible for the introduction of a Security Mechanism.
 
-Business Role stereotyped with «SecurityDesigner» (normally, it is associated with «ControlMeasure» and assigned to the implementation of a Security Mechanism)
+In ArchiMate, a *Security Designer* is represented as Business Role stereotyped with «SecurityDesigner». Normally, it is associated with a «ControlMeasure» element and assigned to the implementation of a *Security Mechanism*. A *Security Designer* is a role playing by a person or department, not a job.
 
 
-**Examples:** XXXX.
+**Examples:** IT team.
 
 <!-- TOC --><a name="security-mechanism"></a>
 ### 20. Security Mechanism
