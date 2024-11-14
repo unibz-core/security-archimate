@@ -179,6 +179,7 @@ In ArchiMate, a *quality* is represented as a Driver stereotyped with «Quality�
 
 **Examples:** Consider an airplane seat (*Resource*) associated with seat width («Quality» Driver), associated with an assessment 43 cm. Other examples include the weight of a person, which can be measured in kilograms or pounds, and the color of a flower, which can be specified in RGB or HSV.
 
+
 <!-- TOC --><a name="risk-experience"></a>
 ### 14. Risk Experience
 
@@ -241,7 +242,7 @@ Stakeholder associated with a Risk Assessment
 <!-- TOC --><a name="security-designer"></a>
 ### 19. Security Designer
 
-> An agent responsible for the introduction of a Security Mechanism.
+> A *Security Designer* is an agent responsible for the introduction of a Security Mechanism.
 
 In ArchiMate, a *Security Designer* is represented as Business Role stereotyped with «SecurityDesigner». Normally, it is associated with a «ControlMeasure» element and assigned to the implementation of a *Security Mechanism*. A *Security Designer* is a role playing by a person or department, not a job.
 
@@ -251,7 +252,7 @@ In ArchiMate, a *Security Designer* is represented as Business Role stereotyped 
 <!-- TOC --><a name="security-mechanism"></a>
 ### 20. Security Mechanism
 
-> Definition... is an Object that was intentionally designed to create value by protecting certain goals from Risk Events (encompassing Threat Events and Loss Events) in a systematic fashion.
+> A *Security Mechanism* is an Object that was intentionally designed to create value by protecting certain goals from *Risk Events* (encompassing *Threat Events* and *Loss Events*) systematically.
 
 Structure Element (Business Agent, Resource) stereotyped with «SecurityMechanism»
 
@@ -261,7 +262,7 @@ Structure Element (Business Agent, Resource) stereotyped with «SecurityMechanis
 <!-- TOC --><a name="threat-enabler"></a>
 ### 21. Threat Enabler
 
-> Definition...
+> Ancillary object whose dispositions enable or favor the occurrence of Risk Events (Threat of Loss Events).
 
 In ArchiMate, a *Threat Enabler* is represented as a Structure Element associated with a «ThreatEvent» or a «LossEvent».
 
@@ -270,7 +271,7 @@ In ArchiMate, a *Threat Enabler* is represented as a Structure Element associate
 <!-- TOC --><a name="threat-event"></a>
 ### 22. Threat Event
 
-> Definition...
+> A *Threat Event* is an event that can cause a *Loss Event*.
 
 In ArchiMate, a *Threat Event* is represented as an event stereotyped with «ThreatEvent».
 
@@ -280,7 +281,7 @@ In ArchiMate, a *Threat Event* is represented as an event stereotyped with «Thr
 <!-- TOC --><a name="threat-object"></a>
 ### 23. Threat Object
 
-> Definition...
+> *Threat Objects* are Objects bearing *Threat Capabilities*, whose manifestations are *Threat Events*.
 
  In ArchiMate, a *Threat Object* is represented as a Structure Element stereotyped with «ThreatAgent».
 
@@ -290,7 +291,7 @@ In ArchiMate, a *Threat Event* is represented as an event stereotyped with «Thr
 <!-- TOC --><a name="vulnerability"></a>
 ### 24. Vulnerability
 
-> Definition...
+> *Vulnerabilities* are *Dispositions* inhering in *Risk Enablers* or *Object At Risks* whose manifestations are *Risk Events* (*Threat* or *Loss Events*).
 
 In ArchiMate, a *Vulnerability* is represented as a Capability stereotyped with «Vulnerability».
 
