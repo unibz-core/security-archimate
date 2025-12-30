@@ -232,12 +232,12 @@ Assessment associated with a «Risk»
 <!-- TOC --><a name="risk-assessor"></a>
 ### 18. Risk Assessor
 
-> Definition...
+> The *Risk Assessor* is an agent who assesses the risks (captured by the *Risk Experience* and *Risk Assessment*).
 
-Stakeholder associated with a Risk Assessment
+In ArchiMate, a *Risk Assessor* is a Stakeholder element associated with a Risk Assessment. In the context a *Risk Assessment*, the roles of *Risk Assessor* and *Risk Subject* might be played by the same agent or different ones.
 
 
-**Examples:** XXXX.
+**Examples:** IT team, company's CTO, and analysts.
 
 <!-- TOC --><a name="security-designer"></a>
 ### 19. Security Designer
@@ -247,7 +247,7 @@ Stakeholder associated with a Risk Assessment
 In ArchiMate, a *Security Designer* is represented as Business Role stereotyped with «SecurityDesigner». Normally, it is associated with a «ControlMeasure» element and assigned to the implementation of a *Security Mechanism*. A *Security Designer* is a role playing by a person or department, not a job.
 
 
-**Examples:** IT team.
+**Examples:** IT team, security consultants.
 
 <!-- TOC --><a name="security-mechanism"></a>
 ### 20. Security Mechanism
