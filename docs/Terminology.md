@@ -208,7 +208,7 @@ Associated to this experience, there is RISK simply labelled “Production loss�
 Driver stereotyped with «Risk»
 
 
-**Examples:** XXXX.
+**Examples:** Production loss, memory leak, and data breach.
 
 <!-- TOC --><a name="risk-subject"></a>
 ### 16. Risk Subject
@@ -222,11 +222,11 @@ In ArchiMate, a *Risk Subject* is represented as a Stakeholder associated with a
 <!-- TOC --><a name="risk-assessment"></a>
 ### 17. Risk Assessment
 
-> Definition...
+> The result of an analysis of the state of affairs of the enterprise with respect to «Risk» *Drivers*.
 
-Assessment associated with a «Risk»
+In ArchiMate, a *Risk Assessment* is represented as an *Assessment* element associated with a «Risk» (*Driver*).
 
-**Examples:** XXXX.
+**Examples:** The risk of production loss is unacceptable.
 
 
 <!-- TOC --><a name="risk-assessor"></a>
@@ -293,4 +293,4 @@ In ArchiMate, a *Threat Event* is represented as an event stereotyped with «Thr
 
 In ArchiMate, a *Vulnerability* is represented as a Capability stereotyped with «Vulnerability».
 
-**Examples:** Software misconfigurations, tiredness (in workers), weak cryptography, single points of failture, and outdated materials.
+**Examples:** Software misconfigurations, inadequate safety procedures, weak cryptography, single points of failture, and outdated materials.
