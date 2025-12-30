@@ -199,7 +199,7 @@ In ArchiMate, *Risk Experience* is represented as an Grouping element stereotype
 <!-- TOC --><a name="risk-driver"></a>
 ### 15. Risk
 
-> The *Risk* summarizes the *Risk Experience*, being a driver for an organization's actions.
+> The *Risk* summarizes the *Risk Experience*, being a driver for the organization's actions.
 
 A driver represents an external or internal condition that motivates an organization to define its goals and implement the changes necessary to achieve them. The *Risk*, from a quantitative perspective, commonly described as probability × impact, is mapped to a *Driver* stereotyped as *Risk*.
 
