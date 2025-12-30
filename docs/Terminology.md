@@ -286,7 +286,7 @@ In ArchiMate, a *Threat Event* is represented as an event stereotyped with «Thr
  In ArchiMate, a *Threat Object* is represented as a Structure Element stereotyped with «ThreatAgent».
 
 
-**Examples:** XXXX.
+**Examples:** Phishing emails, hackers, and flammable material.
 
 <!-- TOC --><a name="vulnerability"></a>
 ### 24. Vulnerability
