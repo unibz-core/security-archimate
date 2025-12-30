@@ -73,7 +73,7 @@ In ArchiMate, a *Control Measure* is represented by a *Requirement* with the ste
 
 **Examples:** Enforcing a no-logs policy within a VPN company. Autoupdate feature of a piece of software. Warning signs that are near dangerous places inside a factory.
 
-{% include note.html content="A *Control Measure* is a *Requirement* and, as such, a proposition or statement. It is not a concrete thing. For example, the warning signs above correspond to the proposition regarding employing them; the warning signs themselves can be seen as *Security Mechanisms*, placed by an implementation event assigned to a *Security Designer*." %}
+> **NOTE:** A *Control Measure* is a *Requirement* and, as such, a proposition or statement. It is not a concrete thing. For example, the warning signs above correspond to the proposition regarding employing them; the warning signs themselves can be seen as *Security Mechanisms*, placed by an implementation event assigned to a *Security Designer*.
 
 <!-- TOC --><a name="control-objective"></a>
 ### 4. Control Objective
