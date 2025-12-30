@@ -266,7 +266,7 @@ Structure Element (Business Agent, Resource) stereotyped with «SecurityMechanis
 
 In ArchiMate, a *Threat Enabler* is represented as a Structure Element associated with a «ThreatEvent» or a «LossEvent».
 
-**Examples:** XXXX.
+**Examples:** If a thief is perceived as a *Threat Object*, then their firearm or knife can be understood as a *Threat Enabler*. Disabling *Threat Enablers* is a common way to prevent *Risk Events* from happenning.
 
 <!-- TOC --><a name="threat-event"></a>
 ### 22. Threat Event
