@@ -199,16 +199,11 @@ In ArchiMate, *Risk Experience* is represented as an Grouping element stereotype
 <!-- TOC --><a name="risk-driver"></a>
 ### 15. Risk
 
-> Definition...
+> The *Risk* summarizes the *Risk Experience*, being a driver for an organization's actions.
 
-The second represents risk from a quantitative perspective, commonly described as probability × impact. We map this concept as a DRIVER stereotyped as RISK, as drivers represent “conditions that motivate an organization to define its goals and implement the changes necessary to achieve them”
+A driver represents an external or internal condition that motivates an organization to define its goals and implement the changes necessary to achieve them. The *Risk*, from a quantitative perspective, commonly described as probability × impact, is mapped to a *Driver* stereotyped as *Risk*.
 
-Associated to this experience, there is RISK simply labelled “Production loss”, which reflects the likelihood that all the parts of the experience occur and cause each other, as well as on the quantitative impact of the potential losses. Lastly, the RISK ASSESSMENT “Risk of production loss is unacceptable” concerns the production loss RISK.
-
-Driver stereotyped with «Risk»
-
-
-**Examples:** Production loss, memory leak, and data breach.
+**Examples:** Production loss, reflecting the likelihood that all the parts of the experience occur and cause each other, as well as on the quantitative impact of the potential losses. Other examples are memory leaks, and data breach.
 
 <!-- TOC --><a name="risk-subject"></a>
 ### 16. Risk Subject
@@ -224,7 +219,7 @@ In ArchiMate, a *Risk Subject* is represented as a Stakeholder associated with a
 
 > The result of an analysis of the state of affairs of the enterprise with respect to «Risk» *Drivers*.
 
-In ArchiMate, a *Risk Assessment* is represented as an *Assessment* element associated with a «Risk» (*Driver*).
+In ArchiMate, a *Risk Assessment* is represented as an *Assessment* element associated with a «Risk» (*Driver*). *Risk Assessments* guide *Control Measures*. 
 
 **Examples:** The risk of production loss is unacceptable.
 
