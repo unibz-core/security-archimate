@@ -12,7 +12,7 @@ The terminology of our proposal to introduce notions related to **Risk** and **S
 - 1\. [Control Capability](#control-capability)
 - 2\. [Control Event](#control-event)
 - 3\. [Control Measure](#control-measure)
-- 4\. [Control Objective](#control-objetive)
+- 4\. [Control Objective](#control-objective)
 - 5\. [Disposition](#disposition)
 - 6\. [Hazard Assessment](#hazard-assessment)
 - 7\. [Intention](#intention)
@@ -60,7 +60,7 @@ In ArchiMate, a *Control Event* is represented by an event that must negatively 
 *Control Events*, directly, realize a *Goal* stereotyped with «ControlObjective» or, indirectly, realize it via the realization of a *Requirement* stereotyped with «ControlMeasure», which should realize that *Goal*.
 
 
-*Control Events* are manifestations of *Control Capabilities* which they are associated with.
+*Control Events* are manifestations of *Control Capabilities* with which they are associated.
 
 **Examples:** To realize the «ControlObjective» *Goal* of preventing software failure, removing permission to commit to the repository can be an adequate *Control Event*. Rocket interception can be a *Control Event* as manifestation of an air defense system's *Control Capabilities*; by doing so, the rocket interception event realizes the «ControlObjective» *Goal* of preventing damage to a given factory.
 
@@ -71,17 +71,17 @@ In ArchiMate, a *Control Event* is represented by an event that must negatively 
 
 In ArchiMate, a *Control Measure* is represented by a *Requirement* with the stereotype «ControlMeasure». A *Control Measure* is realized by the implementation of a *Security Mechanism* or by a *Control Event*.
 
-**Examples:** Enforcing no-logs policy within a VPN company. Autoupdate feature of a piece of software. Warning signs nearby dangerous places inside a factory.
+**Examples:** Enforcing a no-logs policy within a VPN company. Autoupdate feature of a piece of software. Warning signs that are near dangerous places inside a factory.
 
-
-📝 **Note:** A *Control Measure* is a *Requirement* and, as such, a proposition or statement. It is not a concrete thing. For example, the warning signs above correspond to the proposition regarding employing them; the warning signs themselves can be seen as *Security Mechanism*, placed by an implementation event assigned to a *Security Designer*.
+> [!NOTE]
+> A *Control Measure* is a *Requirement* and, as such, a proposition or statement. It is not a concrete thing. For example, the warning signs above correspond to the proposition regarding employing them; the warning signs themselves can be seen as *Security Mechanisms*, placed by an implementation event assigned to a *Security Designer*.
 
 <!-- TOC --><a name="control-objective"></a>
 ### 4. Control Objective
 
 > A *Control Objective*  is a high-level goal that should be realized by one or more *Control Measures*.
 
-In ArchiMate, a *Control Objective* is represented by a *Goal* stereotyped with «ControlObjective». A *Control Objective* is realized by a a *Requirement* stereotyped with «ControlMeasure».
+In ArchiMate, a *Control Objective* is represented by a *Goal* stereotyped with «ControlObjective». A *Control Objective* is realized by a *Requirement* stereotyped with «ControlMeasure».
 
 **Examples:** Preventing work accidents. Preventing data breaches. Preventing software failure.
 
@@ -102,7 +102,7 @@ In ArchiMate, a *Disposition* is represented by a *Capability*.  Abilities, capa
 In ArchiMate, a *Hazard Assessment* is an assessment stereotyped with «HazardAssessment».
 
 
-**Examples:** Employees working too many hours. Disorganized work place in a factory. Unclear procedures for emergency.
+**Examples:** Employees working too many hours. Disorganized workplace in a factory. Unclear procedures for emergencies.
 
 <!-- TOC --><a name="intention"></a>
 ### 7. Intention
@@ -153,16 +153,16 @@ In the risk ontology, we distinguish two roles played by objects in a *Risk Expe
 
 This protection effect is the prevention of *Risk Events* (*Threat* or *Loss Events*) that could hurt the agent's goals.
 
-In ArchiMate, a *Protected Subject* is represented by a specialization of *Risk Subject* associated with a «ControlObjective»
+In ArchiMate, a *Protected Subject* is represented by a specialization of *Risk Subject* associated with a «ControlObjective».
 
-The *Protected Subject* specializes *Risk Subject*, though some *Risk Subjects* might not be *Protected Subject* due to lack of protection.
+The *Protected Subject* specializes *Risk Subject*, though some *Risk Subjects* might not be *Protected Subject* due to a lack of protection.
 
 **Examples:** For example, a company has a *Control Objective* of protecting customers’ data from cyberattacks. Based on an assessment, a series of *Control Measures* should be implemented by the company’s cybersecurity team, playing the role of *Security Designer*; both the company and the customers may be regarded as *Protected Subjects* since they have assets at risk that should be protected.
 
 <!-- TOC --><a name="protection-trigger"></a>
 ### 12. Protection Trigger
 
-> A *Protection Trigger* corresponds to certain state of affairs or environmental conditions that activate *Control Capabilities*.
+> A *Protection Trigger* corresponds to a certain state of affairs or environmental conditions that activate *Control Capabilities*.
 
 In ArchiMate, a *Protection Trigger* is represented as an *Assessment* stereotyped with «ControlAssessment».
 
@@ -189,7 +189,7 @@ According to COVER, risk is always experiential. Although we speak of *Objects a
 
 Risk is always relative. This means an event might be regarded as a *Threat Event* by one agent, whereas another agent perceives it as a *Opportunity Event*. For example, from the attacker's perspective, a successful phishing attack that compromises confidential information is seen as a *Gain Event*, a positive value event that brings about situations that satisfy the attacker's goals; however, from the victim's viewpoint (*Risk Subject*), it is a *Loss Event*, caused by a chain of *Threat Events*, that hurts their goals. The relativity of risks comes from their negative impact on goals. If one is concerned about the confidentiality of their data, this is because the risk of compromising it jeopardizes their goals, such as data privacy or avoiding identity theft.
 
-In ArchiMate, *Risk Experience* is represented as an Grouping element stereotyped with «RiskExperience»
+In ArchiMate, *Risk Experience* is represented as a Grouping element stereotyped with «RiskExperience».
 
 *Risk Experience* aggregates the risk elements and the relations, including *Hazard Assessment*, *Threat Agent*, *Loss Event*, *Vulnerability*, *Asset at Risk*, and *Threat Enabler*.
 
@@ -203,7 +203,7 @@ In ArchiMate, *Risk Experience* is represented as an Grouping element stereotype
 
 A driver represents an external or internal condition that motivates an organization to define its goals and implement the changes necessary to achieve them. The *Risk*, from a quantitative perspective, commonly described as probability × impact, is mapped to a *Driver* stereotyped as *Risk*.
 
-**Examples:** Production loss, reflecting the likelihood that all the parts of the experience occur and cause each other, as well as on the quantitative impact of the potential losses. Other examples are memory leaks, and data breach.
+**Examples:** Production loss, reflecting the likelihood that all the parts of the experience occur and cause each other, as well as the quantitative impact of the potential losses. Other examples are memory leaks and data breaches.
 
 <!-- TOC --><a name="risk-subject"></a>
 ### 16. Risk Subject
@@ -239,7 +239,7 @@ In ArchiMate, a *Risk Assessor* is a Stakeholder element associated with a Risk 
 
 > A *Security Designer* is an agent responsible for the introduction of a Security Mechanism.
 
-In ArchiMate, a *Security Designer* is represented as Business Role stereotyped with «SecurityDesigner». Normally, it is associated with a «ControlMeasure» element and assigned to the implementation of a *Security Mechanism*. A *Security Designer* is a role playing by a person or department, not a job.
+In ArchiMate, a *Security Designer* is represented as a Business Role stereotyped with «SecurityDesigner». Normally, it is associated with a «ControlMeasure» element and assigned to the implementation of a *Security Mechanism*. A *Security Designer* is a role playing by a person or department, not a job.
 
 
 **Examples:** IT team, security consultants.
@@ -249,7 +249,7 @@ In ArchiMate, a *Security Designer* is represented as Business Role stereotyped 
 
 > A *Security Mechanism* is an Object that was intentionally designed to create value by protecting certain goals from *Risk Events* (encompassing *Threat Events* and *Loss Events*) systematically.
 
-Structure Element (Business Agent, Resource) stereotyped with «SecurityMechanism»
+Structure Element (Business Agent, Resource) stereotyped with «SecurityMechanism».
 
 
 **Examples:** Encrypted disk drives, firewalls, walls, and security guards.
@@ -261,7 +261,7 @@ Structure Element (Business Agent, Resource) stereotyped with «SecurityMechanis
 
 In ArchiMate, a *Threat Enabler* is represented as a Structure Element associated with a «ThreatEvent» or a «LossEvent».
 
-**Examples:** If a thief is perceived as a *Threat Object*, then their firearm or knife can be understood as a *Threat Enabler*. Disabling *Threat Enablers* is a common way to prevent *Risk Events* from happenning.
+**Examples:** If a thief is perceived as a *Threat Object*, then their firearm or knife can be understood as a *Threat Enabler*. Disabling *Threat Enablers* is a common way to prevent *Risk Events* from happening.
 
 <!-- TOC --><a name="threat-event"></a>
 ### 22. Threat Event
@@ -270,7 +270,7 @@ In ArchiMate, a *Threat Enabler* is represented as a Structure Element associate
 
 In ArchiMate, a *Threat Event* is represented as an event stereotyped with «ThreatEvent». Technically, an event is a value-neutral occurrence. An event perceived as a *Threat Event* by some people, according to their goals, can be seen as a *Loss Event* by others.
 
-**Examples:** A fire in the office that threats workers' integrity, and cyber attacks (v.g., DDoS attacks) that can cause disruptions or information leaks.
+**Examples:** A fire in the office that threatens workers' integrity, and cyber attacks (e.g., DDoS attacks) that can cause disruptions or information leaks.
 
 <!-- TOC --><a name="threat-object"></a>
 ### 23. Threat Object
@@ -284,8 +284,8 @@ In ArchiMate, a *Threat Event* is represented as an event stereotyped with «Thr
 <!-- TOC --><a name="vulnerability"></a>
 ### 24. Vulnerability
 
-> *Vulnerabilities* are *Dispositions* inhering in *Risk Enablers* or *Object At Risks* whose manifestations are *Risk Events* (*Threat* or *Loss Events*).
+> *Vulnerabilities* are *Dispositions* (intrinsic properties) inhering in *Risk Enablers* or *Object At Risks* whose manifestations are *Risk Events* (*Threat* or *Loss Events*).
 
 In ArchiMate, a *Vulnerability* is represented as a Capability stereotyped with «Vulnerability».
 
-**Examples:** Software misconfigurations, inadequate safety procedures, weak cryptography, single points of failture, and outdated materials.
+**Examples:** Software misconfigurations, inadequate safety procedures, weak cryptography, single points of failure, and outdated materials.
