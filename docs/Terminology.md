@@ -273,10 +273,9 @@ In ArchiMate, a *Threat Enabler* is represented as a Structure Element associate
 
 > A *Threat Event* is an event that can cause a *Loss Event*.
 
-In ArchiMate, a *Threat Event* is represented as an event stereotyped with «ThreatEvent».
+In ArchiMate, a *Threat Event* is represented as an event stereotyped with «ThreatEvent». Technically, an event is a value-neutral occurrence. An event perceived as a *Threat Event* by some people, according to their goals, can be seen as a *Loss Event* by others.
 
-
-**Examples:** XXXX.
+**Examples:** A fire in the office that threats workers' integrity, and cyber attacks (v.g., DDoS attacks) that can cause disruptions or information leaks.
 
 <!-- TOC --><a name="threat-object"></a>
 ### 23. Threat Object
@@ -284,7 +283,6 @@ In ArchiMate, a *Threat Event* is represented as an event stereotyped with «Thr
 > *Threat Objects* are Objects bearing *Threat Capabilities*, whose manifestations are *Threat Events*.
 
  In ArchiMate, a *Threat Object* is represented as a Structure Element stereotyped with «ThreatAgent».
-
 
 **Examples:** Phishing emails, hackers, and flammable material.
 
@@ -294,6 +292,5 @@ In ArchiMate, a *Threat Event* is represented as an event stereotyped with «Thr
 > *Vulnerabilities* are *Dispositions* inhering in *Risk Enablers* or *Object At Risks* whose manifestations are *Risk Events* (*Threat* or *Loss Events*).
 
 In ArchiMate, a *Vulnerability* is represented as a Capability stereotyped with «Vulnerability».
-
 
 **Examples:** Software misconfigurations, tiredness (in workers), weak cryptography, single points of failture, and outdated materials.
