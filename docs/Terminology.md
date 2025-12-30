@@ -257,7 +257,7 @@ In ArchiMate, a *Security Designer* is represented as Business Role stereotyped 
 Structure Element (Business Agent, Resource) stereotyped with «SecurityMechanism»
 
 
-**Examples:** XXXX.
+**Examples:** Encrypted disk drives, firewalls, walls, and security guards.
 
 <!-- TOC --><a name="threat-enabler"></a>
 ### 21. Threat Enabler
