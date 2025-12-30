@@ -296,5 +296,4 @@ In ArchiMate, a *Threat Event* is represented as an event stereotyped with «Thr
 In ArchiMate, a *Vulnerability* is represented as a Capability stereotyped with «Vulnerability».
 
 
-**Examples:** XXXX.
-        
+**Examples:** Software misconfigurations, tiredness (in workers), weak cryptography, single points of failture, and outdated materials.
